@@ -1,0 +1,54 @@
+[
+  {
+    "text": "Al assistant GUlfixture.Replies are deterministic test data,notAl generation.",
+    "bounds": [
+      22,
+      105,
+      1040,
+      139
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9516591143298458,
+    "package": ""
+  },
+  {
+    "text": "Add12and13.Return25andcodecac3f65cb4.",
+    "bounds": [
+      28,
+      162,
+      606,
+      189
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9957217574119568,
+    "package": ""
+  },
+  {
+    "text": "SENDTESTPROMPT",
+    "bounds": [
+      438,
+      234,
+      642,
+      258
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9954333220209394,
+    "package": ""
+  },
+  {
+    "text": "SIMULATED:25codecac3f65cb4",
+    "bounds": [
+      24,
+      289,
+      521,
+      320
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.947575738796821,
+    "package": ""
+  }
+]

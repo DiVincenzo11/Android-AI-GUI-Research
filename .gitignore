@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+runs/
+*.keystore
+*.apk
+*.mp4
+!artifacts/live-fixture/demo.mp4
+!artifacts/live-fixture-ocr/demo.mp4
+.env
+config.local.json

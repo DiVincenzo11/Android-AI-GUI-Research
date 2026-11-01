@@ -1,0 +1,27 @@
+{
+  "name": "Otter",
+  "package": "com.aisense.otter",
+  "capture_date_local": "2026-10-16",
+  "source_experiment": "AI_firstuse_disclosure_v1",
+  "source_type": "selected historical real-app captures; not executed by this portable release",
+  "benchmark": false,
+  "historical_outcome": {
+    "description": "AI identity text observed; no prompt submitted; login not performed.",
+    "new_output_verified": false
+  },
+  "captures": [
+    {
+      "stage": "000_first_launch",
+      "screenshot": "00_screen.png",
+      "nodes": "00_nodes.json",
+      "size": [
+        1080,
+        2400
+      ],
+      "capture_epoch": 1792160988.6560626,
+      "screenshot_sha256": "af28ce8ab5ffb83f6b4d9264d408f5156005e4e86e34b6b03799cc7a3720a41d",
+      "original_nodes_sha256": "99d4057c310a8fad3abdde153f732c110fa1c6ab16fb46371bbdc3d805b57ea5",
+      "nodes_export": "selected fields; native UI text requires screenshot review"
+    }
+  ]
+}

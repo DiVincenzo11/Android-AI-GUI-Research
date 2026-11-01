@@ -1,0 +1,418 @@
+[
+  {
+    "text": "",
+    "description": "",
+    "class": "android.widget.FrameLayout",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 0
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "g9g",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 1
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.view.View",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 2
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.view.View",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 3
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.view.View",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 4
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.view.View",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 5
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.view.View",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 6
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.view.View",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 7
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.view.View",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 8
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.view.View",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 9
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.view.View",
+    "bounds": [
+      0,
+      0,
+      1080,
+      163
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 10
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.widget.ScrollView",
+    "bounds": [
+      0,
+      546,
+      1080,
+      1717
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 11
+  },
+  {
+    "text": "Sign in or sign up to continue",
+    "description": "",
+    "class": "android.widget.TextView",
+    "bounds": [
+      42,
+      777,
+      1038,
+      1040
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 12
+  },
+  {
+    "text": "Create an account for free",
+    "description": "",
+    "class": "android.widget.TextView",
+    "bounds": [
+      320,
+      1061,
+      761,
+      1103
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 13
+  },
+  {
+    "text": "Continue with Google",
+    "description": "",
+    "class": "android.widget.TextView",
+    "bounds": [
+      43,
+      1234,
+      1037,
+      1381
+    ],
+    "enabled": true,
+    "clickable": true,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 14
+  },
+  {
+    "text": "Continue with Google",
+    "description": "",
+    "class": "android.widget.TextView",
+    "bounds": [
+      372,
+      1283,
+      783,
+      1332
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 15
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.widget.Button",
+    "bounds": [
+      43,
+      1234,
+      1037,
+      1381
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 16
+  },
+  {
+    "text": "Sign in with Email",
+    "description": "",
+    "class": "android.widget.TextView",
+    "bounds": [
+      43,
+      1402,
+      1037,
+      1549
+    ],
+    "enabled": true,
+    "clickable": true,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 17
+  },
+  {
+    "text": "Sign in with Email",
+    "description": "",
+    "class": "android.widget.TextView",
+    "bounds": [
+      412,
+      1451,
+      743,
+      1500
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 18
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.widget.Button",
+    "bounds": [
+      43,
+      1402,
+      1037,
+      1549
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 19
+  },
+  {
+    "text": "Single sign-on (SSO)",
+    "description": "",
+    "class": "android.widget.TextView",
+    "bounds": [
+      43,
+      1570,
+      1037,
+      1717
+    ],
+    "enabled": true,
+    "clickable": true,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 20
+  },
+  {
+    "text": "Single sign-on (SSO)",
+    "description": "",
+    "class": "android.widget.TextView",
+    "bounds": [
+      348,
+      1619,
+      732,
+      1668
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 21
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.widget.Button",
+    "bounds": [
+      43,
+      1570,
+      1037,
+      1717
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 22
+  },
+  {
+    "text": "Privacy policy",
+    "description": "Privacy policy, link",
+    "class": "android.widget.TextView",
+    "bounds": [
+      42,
+      2200,
+      540,
+      2326
+    ],
+    "enabled": true,
+    "clickable": true,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 23
+  },
+  {
+    "text": "Terms of service",
+    "description": "Terms of service, link",
+    "class": "android.widget.TextView",
+    "bounds": [
+      540,
+      2200,
+      1038,
+      2326
+    ],
+    "enabled": true,
+    "clickable": true,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 24
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.view.View",
+    "bounds": [
+      477,
+      2232,
+      603,
+      2358
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "ai.perplexity.app.android",
+    "source": "native",
+    "index": 25
+  }
+]

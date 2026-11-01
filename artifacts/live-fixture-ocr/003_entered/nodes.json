@@ -1,0 +1,183 @@
+[
+  {
+    "index": 0,
+    "text": "",
+    "description": "",
+    "resource_id": "",
+    "class": "android.widget.FrameLayout",
+    "package": "org.research.aiguifixture",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": []
+  },
+  {
+    "index": 1,
+    "text": "",
+    "description": "",
+    "resource_id": "",
+    "class": "android.widget.LinearLayout",
+    "package": "org.research.aiguifixture",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0
+    ]
+  },
+  {
+    "index": 2,
+    "text": "",
+    "description": "",
+    "resource_id": "android:id/content",
+    "class": "android.widget.FrameLayout",
+    "package": "org.research.aiguifixture",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 3,
+    "text": "",
+    "description": "",
+    "resource_id": "",
+    "class": "android.widget.LinearLayout",
+    "package": "org.research.aiguifixture",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "index": 4,
+    "text": "AI assistant GUI fixture. Replies are deterministic test data, not AI generation.",
+    "description": "",
+    "resource_id": "",
+    "class": "android.widget.TextView",
+    "package": "org.research.aiguifixture",
+    "bounds": [
+      24,
+      100,
+      1056,
+      141
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "index": 5,
+    "text": "Test prompt",
+    "description": "",
+    "resource_id": "org.research.aiguifixture:id/prompt",
+    "class": "android.widget.EditText",
+    "package": "org.research.aiguifixture",
+    "bounds": [
+      24,
+      141,
+      1056,
+      209
+    ],
+    "enabled": true,
+    "clickable": true,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "index": 6,
+    "text": "SEND TEST PROMPT",
+    "description": "",
+    "resource_id": "org.research.aiguifixture:id/send",
+    "class": "android.widget.Button",
+    "package": "org.research.aiguifixture",
+    "bounds": [
+      24,
+      209,
+      1056,
+      281
+    ],
+    "enabled": true,
+    "clickable": true,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "index": 7,
+    "text": "",
+    "description": "",
+    "resource_id": "org.research.aiguifixture:id/answer",
+    "class": "android.widget.TextView",
+    "package": "org.research.aiguifixture",
+    "bounds": [
+      24,
+      281,
+      1056,
+      325
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+]

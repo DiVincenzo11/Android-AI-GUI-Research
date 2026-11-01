@@ -1,0 +1,12 @@
+{
+  "package": "org.research.aiguifixture",
+  "fixture": true,
+  "entry": "discover",
+  "input": {"resource_id": "org.research.aiguifixture:id/prompt"},
+  "input_placeholder": "Test prompt",
+  "submit": {"resource_id": "org.research.aiguifixture:id/send"},
+  "response": {"resource_id": "org.research.aiguifixture:id/answer"},
+  "prompt": "Add 12 and 13. Return 25 and code {nonce}.",
+  "expected_output": "25",
+  "wait_seconds": 20
+}

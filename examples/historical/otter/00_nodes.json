@@ -1,0 +1,402 @@
+[
+  {
+    "text": "",
+    "description": "",
+    "class": "android.widget.FrameLayout",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 0
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "androidx.compose.ui.platform.ComposeView",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 1
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.view.View",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 2
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.view.View",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 3
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.view.View",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 4
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.view.View",
+    "bounds": [
+      42,
+      163,
+      1038,
+      2358
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 5
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.widget.ScrollView",
+    "bounds": [
+      42,
+      808,
+      1038,
+      1180
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 6
+  },
+  {
+    "text": "Transcribe voice\nnotes & meetings",
+    "description": "",
+    "class": "android.widget.TextView",
+    "bounds": [
+      289,
+      808,
+      791,
+      970
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 7
+  },
+  {
+    "text": "Welcome to Otter, your AI Meeting Assistant. Record in English, Spanish & French",
+    "description": "",
+    "class": "android.widget.TextView",
+    "bounds": [
+      121,
+      1002,
+      959,
+      1180
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 8
+  },
+  {
+    "text": "",
+    "description": "Otter.ai logo",
+    "class": "android.widget.ImageView",
+    "bounds": [
+      452,
+      247,
+      628,
+      321
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 9
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.widget.ScrollView",
+    "bounds": [
+      42,
+      1667,
+      1038,
+      2358
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 10
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.view.View",
+    "bounds": [
+      42,
+      1667,
+      1038,
+      2184
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 11
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.view.View",
+    "bounds": [
+      74,
+      1699,
+      1006,
+      1836
+    ],
+    "enabled": true,
+    "clickable": true,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 12
+  },
+  {
+    "text": "Continue with Google",
+    "description": "",
+    "class": "android.widget.TextView",
+    "bounds": [
+      366,
+      1742,
+      794,
+      1794
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 13
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.widget.Button",
+    "bounds": [
+      74,
+      1699,
+      1006,
+      1836
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 14
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.view.View",
+    "bounds": [
+      74,
+      1857,
+      1006,
+      1994
+    ],
+    "enabled": true,
+    "clickable": true,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 15
+  },
+  {
+    "text": "Continue with Microsoft",
+    "description": "",
+    "class": "android.widget.TextView",
+    "bounds": [
+      346,
+      1900,
+      813,
+      1952
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 16
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.widget.Button",
+    "bounds": [
+      74,
+      1857,
+      1006,
+      1994
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 17
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.view.View",
+    "bounds": [
+      74,
+      2015,
+      1006,
+      2152
+    ],
+    "enabled": true,
+    "clickable": true,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 18
+  },
+  {
+    "text": "Continue with Work Email",
+    "description": "",
+    "class": "android.widget.TextView",
+    "bounds": [
+      324,
+      2058,
+      835,
+      2110
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 19
+  },
+  {
+    "text": "",
+    "description": "",
+    "class": "android.widget.Button",
+    "bounds": [
+      74,
+      2015,
+      1006,
+      2152
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 20
+  },
+  {
+    "text": "By using Otter you agree to the",
+    "description": "",
+    "class": "android.widget.TextView",
+    "bounds": [
+      280,
+      2226,
+      801,
+      2271
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 21
+  },
+  {
+    "text": "Terms of Service",
+    "description": "",
+    "class": "android.widget.TextView",
+    "bounds": [
+      245,
+      2231,
+      518,
+      2357
+    ],
+    "enabled": true,
+    "clickable": true,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 22
+  },
+  {
+    "text": "and",
+    "description": "",
+    "class": "android.widget.TextView",
+    "bounds": [
+      529,
+      2271,
+      594,
+      2316
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 23
+  },
+  {
+    "text": "Privacy Policy",
+    "description": "",
+    "class": "android.widget.TextView",
+    "bounds": [
+      605,
+      2231,
+      836,
+      2357
+    ],
+    "enabled": true,
+    "clickable": true,
+    "package": "com.aisense.otter",
+    "source": "native",
+    "index": 24
+  }
+]

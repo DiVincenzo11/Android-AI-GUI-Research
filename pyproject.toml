@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "android-ai-gui-research"
+version = "0.1.0"
+description = "Inspectable Android AI-entry discovery and staged GUI evidence collection"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10,<13"]
+
+[project.optional-dependencies]
+ocr = ["rapidocr-onnxruntime==1.4.4"]
+tesseract = ["pytesseract>=0.3.13,<0.4"]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+aigui = "aigui.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

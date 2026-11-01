@@ -1,0 +1,135 @@
+[
+  {
+    "index": 0,
+    "text": "",
+    "description": "",
+    "resource_id": "",
+    "class": "android.widget.FrameLayout",
+    "package": "org.research.aiguifixture",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": []
+  },
+  {
+    "index": 1,
+    "text": "",
+    "description": "",
+    "resource_id": "",
+    "class": "android.widget.LinearLayout",
+    "package": "org.research.aiguifixture",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0
+    ]
+  },
+  {
+    "index": 2,
+    "text": "",
+    "description": "",
+    "resource_id": "android:id/content",
+    "class": "android.widget.FrameLayout",
+    "package": "org.research.aiguifixture",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 3,
+    "text": "",
+    "description": "",
+    "resource_id": "",
+    "class": "android.widget.LinearLayout",
+    "package": "org.research.aiguifixture",
+    "bounds": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "index": 4,
+    "text": "AI GUI Research Fixture\nSIMULATED OUTPUT - NOT AN AI MODEL",
+    "description": "",
+    "resource_id": "",
+    "class": "android.widget.TextView",
+    "package": "org.research.aiguifixture",
+    "bounds": [
+      24,
+      100,
+      1056,
+      183
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "index": 5,
+    "text": "AI ASSISTANT",
+    "description": "",
+    "resource_id": "org.research.aiguifixture:id/entry",
+    "class": "android.widget.Button",
+    "package": "org.research.aiguifixture",
+    "bounds": [
+      24,
+      183,
+      1056,
+      255
+    ],
+    "enabled": true,
+    "clickable": true,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+]

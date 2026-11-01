@@ -1,0 +1,41 @@
+[
+  {
+    "text": "AlGUlResearchFixture",
+    "bounds": [
+      21,
+      106,
+      368,
+      141
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9432842075824738,
+    "package": ""
+  },
+  {
+    "text": "SIMULATEDOUTPUT-NOTANAI MODEL",
+    "bounds": [
+      21,
+      146,
+      642,
+      181
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9784125336285295,
+    "package": ""
+  },
+  {
+    "text": "AIASSISTANT",
+    "bounds": [
+      468,
+      205,
+      612,
+      233
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9892020225524902,
+    "package": ""
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "text": "",
+    "description": "",
+    "class": "android.widget.FrameLayout",
+    "bounds": [
+      28,
+      972,
+      1052,
+      1486
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "android",
+    "source": "native",
+    "index": 0
+  },
+  {
+    "text": "Brave isn't responding",
+    "description": "",
+    "class": "android.widget.TextView",
+    "bounds": [
+      133,
+      1061,
+      947,
+      1132
+    ],
+    "enabled": true,
+    "clickable": false,
+    "package": "android",
+    "source": "native",
+    "index": 1
+  },
+  {
+    "text": "Close app",
+    "description": "",
+    "class": "android.widget.Button",
+    "bounds": [
+      70,
+      1171,
+      1010,
+      1297
+    ],
+    "enabled": true,
+    "clickable": true,
+    "package": "android",
+    "source": "native",
+    "index": 2
+  },
+  {
+    "text": "Wait",
+    "description": "",
+    "class": "android.widget.Button",
+    "bounds": [
+      70,
+      1297,
+      1010,
+      1423
+    ],
+    "enabled": true,
+    "clickable": true,
+    "package": "android",
+    "source": "native",
+    "index": 3
+  }
+]

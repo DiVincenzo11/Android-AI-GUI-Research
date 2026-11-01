@@ -1,0 +1,23 @@
+{
+  "package": "org.research.aiguifixture",
+  "mode": "live_adb",
+  "fixture": true,
+  "nonce": "3ea8aede34",
+  "status": "fixture_workflow_passed",
+  "input_verified": true,
+  "new_output_verified": true,
+  "ai_model_quality": "not_assessed",
+  "legal_compliance": "not_assessed",
+  "output": {
+    "text": "SIMULATED: 25 code 3ea8aede34",
+    "bounds": [
+      24,
+      281,
+      1056,
+      325
+    ],
+    "status": "fresh_selected_output_observed",
+    "semantic_correctness": "not_assessed",
+    "review_required": true
+  }
+}

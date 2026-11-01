@@ -1,0 +1,3 @@
+* text=auto eol=lf
+artifacts/** -text
+examples/historical/** -text
