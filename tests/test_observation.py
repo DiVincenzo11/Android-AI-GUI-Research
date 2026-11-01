@@ -98,3 +98,58 @@ def test_historical_cases_keep_failed_output_status():
         for capture in case["captures"]:
             assert (file.parent/capture["screenshot"]).is_file()
 
+
+def test_response_ancestor_rejects_user_bubble_and_wrapped_prompt_echo():
+    parents=[node("",resource_id="assistant",index=0),node("",resource_id="user",index=1)]
+    selector={"class":"android.widget.TextView","ancestor":{"resource_id":"assistant"}}
+    prompt="Return 25 code abc123"
+    answer=node("25 abc123",index=2,ancestors=[0],**{"class":"android.widget.TextView"})
+    user=node("25 abc123",index=3,ancestors=[1],**{"class":"android.widget.TextView"})
+    echo=node("You: Return 25 code abc123",index=4,ancestors=[0],**{"class":"android.widget.TextView"})
+    check=lambda ns:fresh_response([],parents+ns,selector,PKG,prompt,"abc123","25",SIZE)
+    assert check([answer])
+    assert not check([user])
+    assert not check([echo])
+
+
+def test_launch_uses_resolved_activity_without_random_monkey_input():
+    adb=object.__new__(Adb);calls=[]
+    adb.foreground=lambda:"other.app"
+    def shell(*args):
+        calls.append(args)
+        return PKG+"/.MainActivity" if args[0]=="cmd" else "Status: ok"
+    adb.shell=shell
+    adb.launch(PKG)
+    assert calls[-1]==("am","start","-W","-n",PKG+"/.MainActivity")
+    assert not any(c[0]=="monkey" for c in calls)
+    calls.clear();adb.foreground=lambda:PKG;adb.launch(PKG)
+    assert not calls
+
+
+def test_role_selector_excludes_user_even_under_shared_chat_container():
+    nodes=[node("",index=0),node("",index=1,ancestors=[0]),node("",index=2,ancestors=[0]),
+           node("AI Bot",index=3,ancestors=[0,1]),node("User",index=4,ancestors=[0,2]),
+           node("25 abc123",index=5,ancestors=[0,1],**{"class":"android.widget.TextView"}),
+           node("25 abc123",index=6,ancestors=[0,2],**{"class":"android.widget.TextView"})]
+    selector={"class":"android.widget.TextView","role":{"text":"AI Bot","exclude_text":"User"}}
+    assert fresh_response([],nodes,selector,PKG,"Return code abc123","abc123","25",SIZE)
+    assert not fresh_response([],nodes[:5]+[nodes[6]],selector,PKG,"Return code abc123","abc123","25",SIZE)
+
+
+def test_dump_retries_transient_missing_hierarchy_and_cleans_remote_file(monkeypatch):
+    import subprocess
+    monkeypatch.setattr("aigui.device.time.sleep",lambda s:None)
+    adb=object.__new__(Adb);count=0;commands=[]
+    def shell(*args):
+        nonlocal count
+        commands.append(args)
+        if args[0]=="uiautomator":count+=1;return "ERROR: null root node returned" if count==1 else "UI hierarchy dumped"
+        if args[0]=="cat":
+            if count==1:raise subprocess.CalledProcessError(1,args)
+            return '<hierarchy/>'
+        return ''
+    adb.shell=shell
+    assert adb.dump()=='<hierarchy/>' and adb.last_dump_attempts==2
+    assert adb.last_dump_errors==["ERROR: null root node returned"]
+    assert commands[-1][0:2]==("rm","-f")
+

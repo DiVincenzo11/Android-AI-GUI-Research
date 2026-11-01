@@ -1,0 +1,80 @@
+[
+  {
+    "text": "Add12 and 13.Reply with25 andcode 28...",
+    "bounds": [
+      112,
+      145,
+      548,
+      172
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9349906413983076,
+    "package": ""
+  },
+  {
+    "text": "B:",
+    "bounds": [
+      960,
+      147,
+      1053,
+      191
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.5197909027338028,
+    "package": ""
+  },
+  {
+    "text": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "bounds": [
+      109,
+      171,
+      442,
+      200
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9966681166128679,
+    "package": ""
+  },
+  {
+    "text": "Add 12 and 13.Reply with 25 and code 28897a7915.",
+    "bounds": [
+      470,
+      2029,
+      1025,
+      2057
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9470189499358336,
+    "package": ""
+  },
+  {
+    "text": "The sum of 12 and 13is25,and the",
+    "bounds": [
+      27,
+      2114,
+      409,
+      2144
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9297986999154091,
+    "package": ""
+  },
+  {
+    "text": "Typeyourmessagehere",
+    "bounds": [
+      43,
+      2223,
+      323,
+      2247
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9976902008056641,
+    "package": ""
+  }
+]

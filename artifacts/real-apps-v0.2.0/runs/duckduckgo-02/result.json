@@ -1,0 +1,11 @@
+{
+  "package": "com.duckduckgo.mobile.android",
+  "mode": "live_entry_probe",
+  "entry_mode": "explicit_selector",
+  "fixture": false,
+  "input_verified": false,
+  "new_output_verified": false,
+  "status": "blocked_or_failed",
+  "benchmark": false,
+  "error": "UI hierarchy unavailable after three dump attempts: "
+}

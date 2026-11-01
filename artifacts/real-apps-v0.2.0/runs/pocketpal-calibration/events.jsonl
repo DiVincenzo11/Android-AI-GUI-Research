@@ -1,0 +1,5 @@
+{"time_epoch": 1793511149.4823806, "kind": "observation", "stage": "entry", "capture_started": 1793511145.0956974, "screenshot_epoch": 1793511145.2535436, "ui_epoch": 1793511147.29856, "atomic_capture": false, "screenshot": "000_entry/screen.png", "ui": "000_entry/ui.xml", "size": [1080, 2400], "ocr_status": "completed", "ocr_engine": "rapidocr", "markers": []}
+{"time_epoch": 1793511149.559498, "kind": "tap_entry", "bounds": [36, 2214, 1044, 2250]}
+{"time_epoch": 1793511153.2338355, "kind": "observation", "stage": "entered", "capture_started": 1793511150.063744, "screenshot_epoch": 1793511150.2451384, "ui_epoch": 1793511152.6006458, "atomic_capture": false, "screenshot": "002_entered/screen.png", "ui": "002_entered/ui.xml", "size": [1080, 2400], "ocr_status": "completed", "ocr_engine": "rapidocr", "markers": []}
+{"time_epoch": 1793511153.2343402, "kind": "failure", "error": "Input must be an empty non-password EditText"}
+{"time_epoch": 1793511154.3390026, "kind": "recording_saved", "path": "demo.mp4"}

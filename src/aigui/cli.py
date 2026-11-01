@@ -10,6 +10,7 @@ from .runner import run
 def main():
     p = argparse.ArgumentParser(description="Android AI GUI research tools")
     p.add_argument("--adb", help="ADB executable; otherwise ADB/PATH/ANDROID_HOME")
+    p.add_argument("--ui-backend",choices=["shell","uiautomator2"],default="shell")
     sub = p.add_subparsers(dest="command", required=True)
     for cmd in ["observe", "run"]:
         s = sub.add_parser(cmd)
@@ -51,7 +52,7 @@ def main():
                   "new_live_run": False, "benchmark": False}
         write_json(a.out/"result.json", result)
     else:
-        device = Adb(a.serial, a.adb)
+        device = Adb(a.serial, a.adb, a.ui_backend)
         if a.command == "run":
             result = run(device, json.loads(a.config.read_text(encoding="utf-8")), a.out,
                          a.record, a.ocr, a.ocr_language, a.tesseract, a.ocr_engine)
@@ -62,7 +63,9 @@ def main():
             capture = evidence.capture(device, "observe")
             result = {"mode": "live_observation", "candidates": discover(capture["nodes"], a.package, capture["size"])}
             evidence.finish(result)
-    print(json.dumps(result, ensure_ascii=False, indent=2))
+    # Escaped console JSON also works on Windows legacy code pages; evidence
+    # files remain UTF-8 and preserve the exact observed UI text.
+    print(json.dumps(result, ensure_ascii=True, indent=2))
     if a.command == "run" and not result["new_output_verified"]:
         raise SystemExit(2)
 

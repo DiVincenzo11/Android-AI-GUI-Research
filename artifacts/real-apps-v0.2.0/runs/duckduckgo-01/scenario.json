@@ -1,0 +1,22 @@
+{
+  "package": "com.duckduckgo.mobile.android",
+  "fixture": false,
+  "entry": {
+    "text": "Duck.ai"
+  },
+  "input": {
+    "resource_id": "com.duckduckgo.mobile.android:id/inputText"
+  },
+  "input_placeholder": "Ask anything privately",
+  "submit": {
+    "resource_id": "com.duckduckgo.mobile.android:id/inputModeDemoActionIcon"
+  },
+  "response": {
+    "class": "android.widget.TextView"
+  },
+  "prompt": "Add 12 and 13. Reply with 25 and code {nonce}.",
+  "expected_output": "25",
+  "wait_seconds": 30,
+  "stable_polls": 2,
+  "launch_wait": 2
+}

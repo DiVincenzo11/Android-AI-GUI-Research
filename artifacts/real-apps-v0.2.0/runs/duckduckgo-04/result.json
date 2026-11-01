@@ -1,0 +1,14 @@
+{
+  "package": "com.duckduckgo.mobile.android",
+  "mode": "live_adb",
+  "fixture": false,
+  "nonce": "606c80c912",
+  "status": "blocked_or_failed",
+  "input_verified": true,
+  "new_output_verified": false,
+  "ai_model_quality": "not_assessed",
+  "legal_compliance": "not_assessed",
+  "stable_polls_required": 2,
+  "entry_mode": "already_open",
+  "error": "Selector requires exactly one target; observed 0"
+}

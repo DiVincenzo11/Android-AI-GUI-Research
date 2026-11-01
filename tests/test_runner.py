@@ -47,3 +47,29 @@ def test_stale_or_empty_output_is_failure_with_evidence(tmp_path, monkeypatch):
     assert not result["new_output_verified"] and result["status"] == "output_not_established"
     assert (tmp_path/"fail/result.json").is_file()
 
+
+def test_already_open_and_optional_steps_still_require_verified_input(tmp_path, monkeypatch):
+    monkeypatch.setattr("aigui.runner.time.sleep", lambda s: None)
+    config=dict(CONFIG,entry="already_open",wait_seconds=1,
+                entry_steps=[{"selector":{"resource_id":"not-on-this-screen"},"if_present":True}],stable_polls=2)
+    class SubmittedDevice(Device):
+        taps=0
+        def tap(self,*args):self.taps+=1
+        def dump(self):
+            self.phase=2 if self.taps<2 else 10
+            return super().dump()
+    result=run(SubmittedDevice(),config,tmp_path/"open")
+    assert result["input_verified"] and result["new_output_verified"]
+    assert result["entry_mode"]=="already_open"
+    events=[json.loads(x) for x in (tmp_path/"open/events.jsonl").read_text().splitlines()]
+    assert any(e["kind"]=="entry_step_skipped" for e in events)
+
+
+def test_optional_steps_do_not_hide_ambiguous_controls(tmp_path, monkeypatch):
+    monkeypatch.setattr("aigui.runner.time.sleep",lambda s:None)
+    from aigui.observe import select
+    nodes=[{"package":"org.example.app","resource_id":"same","enabled":True,"bounds":[1,1,5,5]}]*2
+    import pytest
+    with pytest.raises(ValueError,match="observed 2"):
+        select(nodes,{"resource_id":"same"},"org.example.app",(100,300),optional=True)
+

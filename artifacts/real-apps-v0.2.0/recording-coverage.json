@@ -1,0 +1,26 @@
+{
+  "pocketpal-05": {
+    "video_seconds": 26.87146666666667,
+    "observation_wall_span_seconds": 31.652833700180054,
+    "first_and_last_frames_manually_reviewed": true,
+    "final_response_visible_in_last_frame": true,
+    "initial_video_state": "model_loading",
+    "note": "Video media duration is not treated as equal to wall-clock duration. PocketPal video starts around model loading; prior selector taps are preserved in screenshots/events."
+  },
+  "chatterui-03": {
+    "video_seconds": 56.29376666666667,
+    "observation_wall_span_seconds": 59.0531530380249,
+    "first_and_last_frames_manually_reviewed": true,
+    "final_response_visible_in_last_frame": true,
+    "initial_video_state": "chat_list",
+    "note": "Video media duration is not treated as equal to wall-clock duration. PocketPal video starts around model loading; prior selector taps are preserved in screenshots/events."
+  },
+  "duckduckgo-05": {
+    "video_seconds": 19.125733333333333,
+    "observation_wall_span_seconds": 18.028400182724,
+    "first_and_last_frames_manually_reviewed": true,
+    "final_response_visible_in_last_frame": true,
+    "initial_video_state": "existing_chat_empty_reply",
+    "note": "Video media duration is not treated as equal to wall-clock duration. PocketPal video starts around model loading; prior selector taps are preserved in screenshots/events."
+  }
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "text": "Models",
+    "bounds": [
+      488,
+      152,
+      593,
+      186
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9939462939898173,
+    "package": ""
+  },
+  {
+    "text": "Model Loaded: qwen2.5-0.5b-instruct",
+    "bounds": [
+      57,
+      261,
+      413,
+      289
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9907253878457206,
+    "package": ""
+  },
+  {
+    "text": "qwen2.5-0.5b-instruct",
+    "bounds": [
+      56,
+      379,
+      295,
+      416
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9988284565153576,
+    "package": ""
+  },
+  {
+    "text": "Models",
+    "bounds": [
+      249,
+      2275,
+      319,
+      2304
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9919882218043009,
+    "package": ""
+  },
+  {
+    "text": "Settings",
+    "bounds": [
+      759,
+      2275,
+      834,
+      2305
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9902492538094521,
+    "package": ""
+  }
+]

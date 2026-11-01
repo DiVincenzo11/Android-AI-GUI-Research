@@ -1,0 +1,587 @@
+[
+  {
+    "text": "Free Plan",
+    "bounds": [
+      491,
+      158,
+      589,
+      183
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9630667236116197,
+    "package": ""
+  },
+  {
+    "text": "②三",
+    "bounds": [
+      960,
+      150,
+      1060,
+      182
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.7091497778892517,
+    "package": ""
+  },
+  {
+    "text": "That's Duck.ai!",
+    "bounds": [
+      136,
+      296,
+      335,
+      326
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9804600358009339,
+    "package": ""
+  },
+  {
+    "text": "PrivateAl chatsyoucandeleteanytimewiththeFireButton.Giveitatry!",
+    "bounds": [
+      135,
+      358,
+      885,
+      385
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9895342455969917,
+    "package": ""
+  },
+  {
+    "text": "Try It",
+    "bounds": [
+      508,
+      437,
+      576,
+      469
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.8945338179667791,
+    "package": ""
+  },
+  {
+    "text": "Duck.ai, by DuckDuckGo",
+    "bounds": [
+      351,
+      1111,
+      729,
+      1147
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9942042285745795,
+    "package": ""
+  },
+  {
+    "text": "Chat Suggestions",
+    "bounds": [
+      236,
+      1229,
+      413,
+      1256
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9690374098718166,
+    "package": ""
+  },
+  {
+    "text": "Create&Edit Images",
+    "bounds": [
+      455,
+      1229,
+      690,
+      1256
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9820927712652419,
+    "package": ""
+  },
+  {
+    "text": "I Voice Chat",
+    "bounds": [
+      731,
+      1229,
+      876,
+      1258
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.944889505704244,
+    "package": ""
+  },
+  {
+    "text": "How Duck.ai Works",
+    "bounds": [
+      430,
+      1285,
+      650,
+      1317
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9777211792328778,
+    "package": ""
+  },
+  {
+    "text": "Add12and13.Replywith25andcodeaee50c345b.",
+    "bounds": [
+      33,
+      1677,
+      591,
+      1708
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9915957048535347,
+    "package": ""
+  },
+  {
+    "text": "6Luna",
+    "bounds": [
+      803,
+      1760,
+      871,
+      1785
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9982326745986938,
+    "package": ""
+  },
+  {
+    "text": "Ask",
+    "bounds": [
+      966,
+      1760,
+      1014,
+      1786
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9940808018048605,
+    "package": ""
+  },
+  {
+    "text": "DuckDuckGo anonymizes your chats.By clicking'Ask'you agree to our Privacy Policy & Terms of Service.",
+    "bounds": [
+      77,
+      1855,
+      901,
+      1878
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9610032916069031,
+    "package": ""
+  },
+  {
+    "text": "GIF",
+    "bounds": [
+      289,
+      1937,
+      337,
+      1969
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9886911511421204,
+    "package": ""
+  },
+  {
+    "text": "自",
+    "bounds": [
+      408,
+      1935,
+      449,
+      1971
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9992415904998779,
+    "package": ""
+  },
+  {
+    "text": "回",
+    "bounds": [
+      753,
+      1941,
+      784,
+      1968
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.6870161294937134,
+    "package": ""
+  },
+  {
+    "text": "W",
+    "bounds": [
+      153,
+      2015,
+      185,
+      2045
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.6481298804283142,
+    "package": ""
+  },
+  {
+    "text": "2",
+    "bounds": [
+      185,
+      2008,
+      195,
+      2020
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9993383288383484,
+    "package": ""
+  },
+  {
+    "text": "3",
+    "bounds": [
+      266,
+      2004,
+      280,
+      2023
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9993401169776917,
+    "package": ""
+  },
+  {
+    "text": "+",
+    "bounds": [
+      408,
+      2015,
+      423,
+      2037
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.7131107449531555,
+    "package": ""
+  },
+  {
+    "text": "5",
+    "bounds": [
+      430,
+      2006,
+      444,
+      2023
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9991514682769775,
+    "package": ""
+  },
+  {
+    "text": "9",
+    "bounds": [
+      926,
+      2005,
+      941,
+      2021
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9992819428443909,
+    "package": ""
+  },
+  {
+    "text": "e",
+    "bounds": [
+      241,
+      2017,
+      261,
+      2044
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9990682005882263,
+    "package": ""
+  },
+  {
+    "text": "p",
+    "bounds": [
+      982,
+      2016,
+      1006,
+      2046
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9321948289871216,
+    "package": ""
+  },
+  {
+    "text": "0",
+    "bounds": [
+      1011,
+      2006,
+      1022,
+      2021
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.6897495985031128,
+    "package": ""
+  },
+  {
+    "text": "g",
+    "bounds": [
+      78,
+      2020,
+      96,
+      2044
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.5635644197463989,
+    "package": ""
+  },
+  {
+    "text": "u",
+    "bounds": [
+      735,
+      2018,
+      756,
+      2043
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9544830322265625,
+    "package": ""
+  },
+  {
+    "text": "O",
+    "bounds": [
+      901,
+      2020,
+      920,
+      2043
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.5077146291732788,
+    "package": ""
+  },
+  {
+    "text": "a",
+    "bounds": [
+      98,
+      2098,
+      122,
+      2130
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9988864064216614,
+    "package": ""
+  },
+  {
+    "text": "S",
+    "bounds": [
+      174,
+      2098,
+      198,
+      2130
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9676796793937683,
+    "package": ""
+  },
+  {
+    "text": "d",
+    "bounds": [
+      250,
+      2092,
+      279,
+      2130
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9994615912437439,
+    "package": ""
+  },
+  {
+    "text": "→",
+    "bounds": [
+      330,
+      2089,
+      351,
+      2127
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.8078086972236633,
+    "package": ""
+  },
+  {
+    "text": "g",
+    "bounds": [
+      406,
+      2100,
+      430,
+      2135
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.990746021270752,
+    "package": ""
+  },
+  {
+    "text": "h",
+    "bounds": [
+      726,
+      2093,
+      750,
+      2129
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9992745518684387,
+    "package": ""
+  },
+  {
+    "text": "k",
+    "bounds": [
+      878,
+      2090,
+      906,
+      2131
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9922784566879272,
+    "package": ""
+  },
+  {
+    "text": "Z",
+    "bounds": [
+      174,
+      2182,
+      198,
+      2213
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.6522400379180908,
+    "package": ""
+  },
+  {
+    "text": "X",
+    "bounds": [
+      249,
+      2182,
+      279,
+      2214
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.6388858556747437,
+    "package": ""
+  },
+  {
+    "text": "C",
+    "bounds": [
+      329,
+      2183,
+      354,
+      2213
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9547790884971619,
+    "package": ""
+  },
+  {
+    "text": "b",
+    "bounds": [
+      723,
+      2177,
+      750,
+      2210
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9987767338752747,
+    "package": ""
+  },
+  {
+    "text": "n",
+    "bounds": [
+      805,
+      2185,
+      826,
+      2210
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9971702694892883,
+    "package": ""
+  },
+  {
+    "text": "m",
+    "bounds": [
+      875,
+      2183,
+      911,
+      2213
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9991495609283447,
+    "package": ""
+  },
+  {
+    "text": "×",
+    "bounds": [
+      972,
+      2189,
+      996,
+      2211
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.6394626498222351,
+    "package": ""
+  },
+  {
+    "text": "?123",
+    "bounds": [
+      63,
+      2264,
+      130,
+      2299
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.8846953064203262,
+    "package": ""
+  },
+  {
+    "text": "?",
+    "bounds": [
+      245,
+      2265,
+      279,
+      2299
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9306460618972778,
+    "package": ""
+  }
+]

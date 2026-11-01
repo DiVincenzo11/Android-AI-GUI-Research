@@ -1,0 +1,184 @@
+[
+  {
+    "text": "User",
+    "bounds": [
+      289,
+      388,
+      357,
+      425
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9997809827327728,
+    "package": ""
+  },
+  {
+    "text": "口",
+    "bounds": [
+      138,
+      466,
+      153,
+      483
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.8509403467178345,
+    "package": ""
+  },
+  {
+    "text": "Local",
+    "bounds": [
+      165,
+      464,
+      216,
+      489
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.997845196723938,
+    "package": ""
+  },
+  {
+    "text": "Remote",
+    "bounds": [
+      455,
+      465,
+      530,
+      489
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9984837571779887,
+    "package": ""
+  },
+  {
+    "text": "Models",
+    "bounds": [
+      79,
+      541,
+      175,
+      574
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9979431430498759,
+    "package": ""
+  },
+  {
+    "text": "Sampler",
+    "bounds": [
+      79,
+      613,
+      188,
+      650
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9998234254973275,
+    "package": ""
+  },
+  {
+    "text": "Formatting",
+    "bounds": [
+      80,
+      688,
+      219,
+      724
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9998538017272949,
+    "package": ""
+  },
+  {
+    "text": "Data Sources",
+    "bounds": [
+      80,
+      760,
+      248,
+      798
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9911735852559408,
+    "package": ""
+  },
+  {
+    "text": "TTS",
+    "bounds": [
+      81,
+      835,
+      136,
+      867
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9845308065414429,
+    "package": ""
+  },
+  {
+    "text": "Logs",
+    "bounds": [
+      80,
+      908,
+      147,
+      945
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9998559206724167,
+    "package": ""
+  },
+  {
+    "text": "About",
+    "bounds": [
+      80,
+      981,
+      160,
+      1014
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9993437170982361,
+    "package": ""
+  },
+  {
+    "text": "Settings",
+    "bounds": [
+      79,
+      1052,
+      185,
+      1092
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9960265159606934,
+    "package": ""
+  },
+  {
+    "text": "v0.10.1",
+    "bounds": [
+      286,
+      2201,
+      361,
+      2227
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9392455560820443,
+    "package": ""
+  },
+  {
+    "text": "Support ChatterUI",
+    "bounds": [
+      255,
+      2280,
+      430,
+      2308
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9768953112994924,
+    "package": ""
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "text": "Compute 17plus28.Replywiththe numer...",
+    "bounds": [
+      112,
+      143,
+      546,
+      174
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.955358414273513,
+    "package": ""
+  },
+  {
+    "text": ":",
+    "bounds": [
+      960,
+      147,
+      1053,
+      191
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.8689628839492798,
+    "package": ""
+  },
+  {
+    "text": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "bounds": [
+      109,
+      171,
+      443,
+      200
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9977636915264707,
+    "package": ""
+  },
+  {
+    "text": "Compute 17 plus 28.Reply with the numeric answer and code 26af6e91a2.Keep it",
+    "bounds": [
+      89,
+      1957,
+      970,
+      1989
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9782242327928543,
+    "package": ""
+  },
+  {
+    "text": "short.",
+    "bounds": [
+      87,
+      1987,
+      157,
+      2016
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9994739294052124,
+    "package": ""
+  },
+  {
+    "text": "17 + 28 = 45",
+    "bounds": [
+      27,
+      2073,
+      161,
+      2102
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9634647717078527,
+    "package": ""
+  },
+  {
+    "text": " 154ms/token, 6.49 tokens/sec, 9514ms TTFT",
+    "bounds": [
+      28,
+      2116,
+      382,
+      2144
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.997143893014817,
+    "package": ""
+  },
+  {
+    "text": "Typeyourmessagehere",
+    "bounds": [
+      43,
+      2223,
+      324,
+      2247
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9982239039320695,
+    "package": ""
+  }
+]

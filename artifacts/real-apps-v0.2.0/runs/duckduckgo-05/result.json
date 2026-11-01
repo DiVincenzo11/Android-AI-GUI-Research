@@ -1,0 +1,25 @@
+{
+  "package": "com.duckduckgo.mobile.android",
+  "mode": "live_adb",
+  "fixture": false,
+  "nonce": "35ca3fc5a6",
+  "status": "fresh_output_observed",
+  "input_verified": true,
+  "new_output_verified": true,
+  "ai_model_quality": "not_assessed",
+  "legal_compliance": "not_assessed",
+  "stable_polls_required": 2,
+  "entry_mode": "already_open",
+  "output": {
+    "text": "25\n35ca3fc5a6",
+    "bounds": [
+      51,
+      891,
+      1029,
+      966
+    ],
+    "status": "fresh_selected_output_observed",
+    "semantic_correctness": "not_assessed",
+    "review_required": true
+  }
+}

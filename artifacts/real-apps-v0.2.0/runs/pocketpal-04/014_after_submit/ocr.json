@@ -1,0 +1,67 @@
+[
+  {
+    "text": "Compute 17plus28.Replywiththe numer...",
+    "bounds": [
+      112,
+      143,
+      546,
+      174
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.955358414273513,
+    "package": ""
+  },
+  {
+    "text": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "bounds": [
+      109,
+      171,
+      442,
+      200
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9946193677006345,
+    "package": ""
+  },
+  {
+    "text": "Compute 17 plus 28. Reply with the numeric answer and code 26af6e91a2.Keep it",
+    "bounds": [
+      89,
+      2022,
+      970,
+      2056
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9751237166392339,
+    "package": ""
+  },
+  {
+    "text": "short.",
+    "bounds": [
+      86,
+      2051,
+      160,
+      2084
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.998119056224823,
+    "package": ""
+  },
+  {
+    "text": "Typeyourmessagehere",
+    "bounds": [
+      44,
+      2223,
+      324,
+      2247
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9971713455099809,
+    "package": ""
+  }
+]

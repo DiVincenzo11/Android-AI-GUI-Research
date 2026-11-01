@@ -1,0 +1,12 @@
+{
+  "package": "com.pocketpalai",
+  "mode": "live_adb",
+  "fixture": false,
+  "nonce": "ce76065790",
+  "status": "blocked_or_failed",
+  "input_verified": false,
+  "new_output_verified": false,
+  "ai_model_quality": "not_assessed",
+  "legal_compliance": "not_assessed",
+  "error": "Input must be an empty non-password EditText"
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "text": "5:43",
+    "bounds": [
+      21,
+      47,
+      68,
+      75
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9841823130846024,
+    "package": ""
+  },
+  {
+    "text": "3G ",
+    "bounds": [
+      959,
+      45,
+      1043,
+      76
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.869080642859141,
+    "package": ""
+  },
+  {
+    "text": "三",
+    "bounds": [
+      22,
+      146,
+      67,
+      191
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.6763914227485657,
+    "package": ""
+  },
+  {
+    "text": "+口",
+    "bounds": [
+      947,
+      143,
+      1057,
+      193
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.6585682481527328,
+    "package": ""
+  },
+  {
+    "text": "Send a message to begin",
+    "bounds": [
+      437,
+      2194,
+      644,
+      2219
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9838042336961498,
+    "package": ""
+  },
+  {
+    "text": "D",
+    "bounds": [
+      89,
+      2285,
+      120,
+      2316
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.6109229326248169,
+    "package": ""
+  },
+  {
+    "text": "Message..",
+    "bounds": [
+      153,
+      2283,
+      253,
+      2322
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9657210773891873,
+    "package": ""
+  }
+]

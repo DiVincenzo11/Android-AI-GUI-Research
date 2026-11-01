@@ -1,0 +1,80 @@
+[
+  {
+    "text": "Add 12 and 13.Reply with 25 and code ea...",
+    "bounds": [
+      110,
+      142,
+      546,
+      174
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9521147892588661,
+    "package": ""
+  },
+  {
+    "text": "B:",
+    "bounds": [
+      960,
+      147,
+      1053,
+      191
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.5197909027338028,
+    "package": ""
+  },
+  {
+    "text": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "bounds": [
+      109,
+      171,
+      442,
+      200
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9966681166128679,
+    "package": ""
+  },
+  {
+    "text": "Add 12 and 13.Reply with 25 and code ea30c26305.",
+    "bounds": [
+      470,
+      2029,
+      1025,
+      2057
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9323001864055792,
+    "package": ""
+  },
+  {
+    "text": "25andcodeea30c2630",
+    "bounds": [
+      27,
+      2114,
+      289,
+      2145
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9972849620713128,
+    "package": ""
+  },
+  {
+    "text": "Typeyourmessagehere",
+    "bounds": [
+      43,
+      2223,
+      324,
+      2247
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9976245227612948,
+    "package": ""
+  }
+]

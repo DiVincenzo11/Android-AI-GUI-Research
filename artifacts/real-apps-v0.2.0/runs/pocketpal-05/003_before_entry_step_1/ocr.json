@@ -1,0 +1,119 @@
+[
+  {
+    "text": "Chat",
+    "bounds": [
+      112,
+      145,
+      167,
+      171
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9993555098772049,
+    "package": ""
+  },
+  {
+    "text": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "bounds": [
+      109,
+      171,
+      441,
+      200
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9981576276547981,
+    "package": ""
+  },
+  {
+    "text": " Pals",
+    "bounds": [
+      43,
+      930,
+      95,
+      961
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.8818331241607666,
+    "package": ""
+  },
+  {
+    "text": "Models",
+    "bounds": [
+      144,
+      931,
+      226,
+      960
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9984351495901743,
+    "package": ""
+  },
+  {
+    "text": "Lookie",
+    "bounds": [
+      38,
+      1011,
+      120,
+      1041
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.999372641245524,
+    "package": ""
+  },
+  {
+    "text": "Video",
+    "bounds": [
+      37,
+      1048,
+      104,
+      1080
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.997942304611206,
+    "package": ""
+  },
+  {
+    "text": "Pip",
+    "bounds": [
+      37,
+      1132,
+      81,
+      1164
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9894543886184692,
+    "package": ""
+  },
+  {
+    "text": "Assistant",
+    "bounds": [
+      39,
+      1174,
+      137,
+      1200
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9988514913452996,
+    "package": ""
+  },
+  {
+    "text": "Typeyourmessagehere",
+    "bounds": [
+      43,
+      2223,
+      324,
+      2247
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9982385604005111,
+    "package": ""
+  }
+]

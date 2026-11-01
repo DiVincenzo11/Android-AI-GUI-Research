@@ -1,0 +1,64 @@
+{
+  "package": "com.Vali98.ChatterUI",
+  "fixture": false,
+  "entry": {
+    "text": "AI Bot",
+    "class": "android.widget.TextView"
+  },
+  "input": {
+    "class": "android.widget.EditText"
+  },
+  "input_placeholder": "Message...",
+  "submit": {
+    "description": "",
+    "class": "android.view.ViewGroup"
+  },
+  "response": {
+    "class": "android.widget.TextView",
+    "role": {
+      "text": "AI Bot",
+      "exclude_text": "User"
+    }
+  },
+  "prompt": "Add 12 and 13. Reply with 25 and code {nonce}.",
+  "expected_output": "25",
+  "wait_seconds": 90,
+  "stable_polls": 2,
+  "launch_wait": 2,
+  "entry_steps": [
+    {
+      "selector": {
+        "description": "",
+        "class": "android.view.ViewGroup"
+      },
+      "wait_seconds": 1
+    },
+    {
+      "selector": {
+        "text": "Models",
+        "class": "android.widget.TextView"
+      },
+      "wait_seconds": 1
+    },
+    {
+      "selector": {
+        "description": "",
+        "class": "android.view.ViewGroup"
+      },
+      "wait_seconds": 6
+    },
+    {
+      "selector": {
+        "description": "Navigate up"
+      },
+      "wait_seconds": 1
+    },
+    {
+      "selector": {
+        "description": "",
+        "class": "android.view.ViewGroup"
+      },
+      "wait_seconds": 1
+    }
+  ]
+}

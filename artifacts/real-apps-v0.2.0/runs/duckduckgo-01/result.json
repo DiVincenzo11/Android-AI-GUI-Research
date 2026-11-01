@@ -1,0 +1,15 @@
+{
+  "package": "com.duckduckgo.mobile.android",
+  "mode": "live_adb",
+  "fixture": false,
+  "nonce": "c17f345980",
+  "status": "blocked_or_failed",
+  "input_verified": true,
+  "new_output_verified": false,
+  "ai_model_quality": "not_assessed",
+  "legal_compliance": "not_assessed",
+  "stable_polls_required": 2,
+  "entry_mode": "explicit_selector",
+  "error": "Command '['G:\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe', '-s', 'emulator-5556', 'shell', 'rm -f /sdcard/aigui_827b09f7c97e4692ac20246b1952de3b.xml']' returned non-zero exit status 1.",
+  "recording_error": "Command '['G:\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe', '-s', 'emulator-5556', 'shell', 'sh -c \\'if [ -r /proc/14692/cmdline ] && grep -q \\'\"\\'\"\\'/sdcard/aigui_3c7d5aebf979429c8d6d5a24396a984d.mp4\\'\"\\'\"\\' /proc/14692/cmdline; then kill -2 14692; fi\\'']' returned non-zero exit status 1."
+}

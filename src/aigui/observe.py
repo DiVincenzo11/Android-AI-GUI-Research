@@ -134,12 +134,14 @@ def markers(nodes, package, size, excluded_texts=()):
     return out
 
 
-def select(nodes, selector, package, size):
+def select(nodes, selector, package, size, optional=False):
     if not selector or not set(selector).issubset({"resource_id", "text", "description", "class"}):
         raise ValueError("Selector must specify exact resource_id, text, description or class")
     hits = [n for n in nodes if n.get("package") == package and n.get("enabled")
             and valid_box(n.get("bounds", []), size)
             and all(n.get(k) == v for k, v in selector.items())]
+    if not hits and optional:
+        return None
     if len(hits) != 1:
         raise ValueError(f"Selector requires exactly one target; observed {len(hits)}")
     return hits[0]
@@ -147,14 +149,34 @@ def select(nodes, selector, package, size):
 
 def fresh_response(before, after, selector, package, prompt, nonce, expected, size):
     """Requires selected non-editable text absent before submit and carrying a fresh nonce."""
-    def matches(n):
-        return (n.get("package") == package and all(n.get(k) == v for k, v in selector.items())
+    if (not selector or not set(selector).issubset({"resource_id", "text", "description", "class", "ancestor", "role"})
+            or not (set(selector)-{"ancestor", "role"})):
+        raise ValueError("Response selector requires exact native fields; ancestor is optional")
+    ancestor = selector.get("ancestor")
+    if ancestor is not None and (not ancestor or not set(ancestor).issubset({"resource_id", "text", "description", "class"})):
+        raise ValueError("Invalid response ancestor selector")
+    role=selector.get("role")
+    if role is not None and (not isinstance(role,dict) or set(role)!={"text","exclude_text"}
+                             or not role["text"] or not role["exclude_text"] or role["text"]==role["exclude_text"]):
+        raise ValueError("Role requires distinct exact text and exclude_text labels")
+    fields = {k:v for k,v in selector.items() if k not in {"ancestor", "role"}}
+    def matches(n, nodes):
+        parent_matches = ancestor is None or any(
+            p.get("index") in n.get("ancestors", []) and p.get("package")==package
+            and all(p.get(k)==v for k,v in ancestor.items()) for p in nodes)
+        role_matches = role is None or any(
+            any(x.get("text")==role["text"] for x in nodes if i in x.get("ancestors",[]) and x.get("package")==package)
+            and not any(x.get("text")==role["exclude_text"] for x in nodes if i in x.get("ancestors",[]) and x.get("package")==package)
+            for i in n.get("ancestors",[]))
+        return (parent_matches and role_matches and n.get("package") == package and all(n.get(k) == v for k, v in fields.items())
                 and "EditText" not in n.get("class", "") and not n.get("password")
                 and valid_box(n.get("bounds", []), size))
-    prior = {n.get("text", "").strip() for n in before if matches(n)}
+    prior = {n.get("text", "").strip() for n in before if matches(n, before)}
+    normalized_prompt = " ".join(prompt.split()).casefold()
     for n in after:
         t = n.get("text", "").strip()
-        if matches(n) and t not in prior and t != prompt.strip() and nonce in t and expected in t:
+        if (matches(n, after) and t not in prior and normalized_prompt not in " ".join(t.split()).casefold()
+                and nonce in t and expected in t):
             return {"text": t, "bounds": n["bounds"], "status": "fresh_selected_output_observed",
                     "semantic_correctness": "not_assessed", "review_required": True}
     return None

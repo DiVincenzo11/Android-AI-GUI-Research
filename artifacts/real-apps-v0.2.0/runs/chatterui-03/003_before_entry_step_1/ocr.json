@@ -1,0 +1,28 @@
+[
+  {
+    "text": "三",
+    "bounds": [
+      8,
+      145,
+      55,
+      197
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9636272192001343,
+    "package": ""
+  },
+  {
+    "text": "8",
+    "bounds": [
+      1000,
+      143,
+      1046,
+      198
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.7113747000694275,
+    "package": ""
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "text": "Chat",
+    "bounds": [
+      109,
+      153,
+      167,
+      187
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9995431751012802,
+    "package": ""
+  },
+  {
+    "text": " Pals",
+    "bounds": [
+      43,
+      930,
+      95,
+      961
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.8818331241607666,
+    "package": ""
+  },
+  {
+    "text": "Models",
+    "bounds": [
+      144,
+      931,
+      227,
+      960
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9980101386706034,
+    "package": ""
+  },
+  {
+    "text": "Lookie",
+    "bounds": [
+      38,
+      1011,
+      120,
+      1041
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.999372641245524,
+    "package": ""
+  },
+  {
+    "text": "Video",
+    "bounds": [
+      37,
+      1048,
+      104,
+      1080
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.997942304611206,
+    "package": ""
+  },
+  {
+    "text": "Pip",
+    "bounds": [
+      37,
+      1131,
+      81,
+      1164
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9960054357846578,
+    "package": ""
+  },
+  {
+    "text": "Assistant",
+    "bounds": [
+      39,
+      1174,
+      137,
+      1200
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9992626574304369,
+    "package": ""
+  },
+  {
+    "text": "Model not loaded.Please initialize the model.",
+    "bounds": [
+      40,
+      2218,
+      548,
+      2246
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9800646265347799,
+    "package": ""
+  }
+]

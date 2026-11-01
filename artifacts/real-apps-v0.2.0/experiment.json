@@ -1,0 +1,347 @@
+{
+  "date": "2026-11-01",
+  "new_live_runs": true,
+  "benchmark": false,
+  "heldout_accuracy_claimed": false,
+  "selected_cases": {
+    "pocketpal": "pocketpal-05",
+    "chatterui": "chatterui-03",
+    "duckduckgo": "duckduckgo-05"
+  },
+  "attempts": [
+    {
+      "case": "pocketpal-calibration",
+      "package": "com.pocketpalai",
+      "phase": "development",
+      "new_output_verified": false,
+      "status": "blocked_or_failed",
+      "evidence_files_verified": 12,
+      "observations": 2,
+      "scenario_saved": false,
+      "video": {
+        "present": true,
+        "decoded_frames": 64,
+        "container_frames": 64,
+        "fps": 7.641547731813515,
+        "duration_seconds": 8.375266666666667,
+        "decode_ok": true
+      },
+      "error": "Input must be an empty non-password EditText",
+      "recording_error": null,
+      "configuration_limit": "Older development runner did not snapshot its config. These are development records, not frozen-protocol benchmark trials."
+    },
+    {
+      "case": "pocketpal-calibration-2",
+      "package": "com.pocketpalai",
+      "phase": "development",
+      "new_output_verified": false,
+      "status": "blocked_or_failed",
+      "evidence_files_verified": 12,
+      "observations": 2,
+      "scenario_saved": false,
+      "video": {
+        "present": true,
+        "decoded_frames": 41,
+        "container_frames": 41,
+        "fps": 4.480814463923372,
+        "duration_seconds": 9.150122222222222,
+        "decode_ok": true
+      },
+      "error": "Input must be an empty non-password EditText",
+      "recording_error": null,
+      "configuration_limit": "Older development runner did not snapshot its config. These are development records, not frozen-protocol benchmark trials."
+    },
+    {
+      "case": "pocketpal-calibration-3",
+      "package": "com.pocketpalai",
+      "phase": "development",
+      "new_output_verified": true,
+      "status": "fresh_output_observed",
+      "evidence_files_verified": 28,
+      "observations": 6,
+      "scenario_saved": false,
+      "video": {
+        "present": true,
+        "decoded_frames": 335,
+        "container_frames": 335,
+        "fps": 11.777495569278823,
+        "duration_seconds": 28.44407777777778,
+        "decode_ok": true
+      },
+      "error": null,
+      "recording_error": null,
+      "configuration_limit": "Older development runner did not snapshot its config. These are development records, not frozen-protocol benchmark trials."
+    },
+    {
+      "case": "chatterui-01",
+      "package": "com.Vali98.ChatterUI",
+      "phase": "development",
+      "new_output_verified": false,
+      "status": "blocked_or_failed",
+      "evidence_files_verified": 17,
+      "observations": 3,
+      "scenario_saved": false,
+      "video": {
+        "present": true,
+        "decoded_frames": 386,
+        "container_frames": 386,
+        "fps": 15.057531995088315,
+        "duration_seconds": 25.635011111111112,
+        "decode_ok": true
+      },
+      "error": "Command '['G:\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe', '-s', 'emulator-5556', 'shell', 'cat /sdcard/aigui_eb9cbaaeeefe4735af95a344d34a78d1.xml']' returned non-zero exit status 1.",
+      "recording_error": null,
+      "configuration_limit": "Older development runner did not snapshot its config. These are development records, not frozen-protocol benchmark trials."
+    },
+    {
+      "case": "chatterui-02",
+      "package": "com.Vali98.ChatterUI",
+      "phase": "development",
+      "new_output_verified": true,
+      "status": "fresh_output_observed",
+      "evidence_files_verified": 25,
+      "observations": 5,
+      "scenario_saved": true,
+      "video": {
+        "present": true,
+        "decoded_frames": 321,
+        "container_frames": 321,
+        "fps": 9.731453648099318,
+        "duration_seconds": 32.98582222222222,
+        "decode_ok": true
+      },
+      "error": null,
+      "recording_error": null,
+      "console_issue": "Workflow result was saved successfully, but CLI printing then failed on the Windows GBK console. Escaped console JSON was added and the final ChatterUI case rerun."
+    },
+    {
+      "case": "chatterui-03",
+      "package": "com.Vali98.ChatterUI",
+      "phase": "selected_adapter_verification",
+      "new_output_verified": true,
+      "status": "fresh_output_observed",
+      "evidence_files_verified": 85,
+      "observations": 20,
+      "scenario_saved": true,
+      "video": {
+        "present": true,
+        "decoded_frames": 1050,
+        "container_frames": 1050,
+        "fps": 18.652153909284213,
+        "duration_seconds": 56.29376666666667,
+        "decode_ok": true
+      },
+      "error": null,
+      "recording_error": null
+    },
+    {
+      "case": "duckduckgo-01",
+      "package": "com.duckduckgo.mobile.android",
+      "phase": "development",
+      "new_output_verified": false,
+      "status": "blocked_or_failed",
+      "evidence_files_verified": 17,
+      "observations": 3,
+      "scenario_saved": true,
+      "video": {
+        "present": false
+      },
+      "error": "Command '['G:\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe', '-s', 'emulator-5556', 'shell', 'rm -f /sdcard/aigui_827b09f7c97e4692ac20246b1952de3b.xml']' returned non-zero exit status 1.",
+      "recording_error": "Command '['G:\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe', '-s', 'emulator-5556', 'shell', 'sh -c \\'if [ -r /proc/14692/cmdline ] && grep -q \\'\"\\'\"\\'/sdcard/aigui_3c7d5aebf979429c8d6d5a24396a984d.mp4\\'\"\\'\"\\' /proc/14692/cmdline; then kill -2 14692; fi\\'']' returned non-zero exit status 1.",
+      "interpretation": "Emulator exited after submission; this is an environment interruption, not a Duck.ai model-failure conclusion."
+    },
+    {
+      "case": "duckduckgo-02",
+      "package": "com.duckduckgo.mobile.android",
+      "phase": "development",
+      "new_output_verified": false,
+      "status": "blocked_or_failed",
+      "evidence_files_verified": 10,
+      "observations": 1,
+      "scenario_saved": true,
+      "video": {
+        "present": true,
+        "decoded_frames": 1744,
+        "container_frames": 1744,
+        "fps": 35.869520505683454,
+        "duration_seconds": 48.620666666666665,
+        "decode_ok": true
+      },
+      "error": "UI hierarchy unavailable after three dump attempts: ",
+      "recording_error": null
+    },
+    {
+      "case": "duckduckgo-03",
+      "package": "com.duckduckgo.mobile.android",
+      "phase": "development",
+      "new_output_verified": true,
+      "status": "fresh_output_observed",
+      "evidence_files_verified": 29,
+      "observations": 6,
+      "scenario_saved": true,
+      "video": {
+        "present": true,
+        "decoded_frames": 412,
+        "container_frames": 412,
+        "fps": 19.137936106751283,
+        "duration_seconds": 21.527922222222223,
+        "decode_ok": true
+      },
+      "error": null,
+      "recording_error": null
+    },
+    {
+      "case": "duckduckgo-04",
+      "package": "com.duckduckgo.mobile.android",
+      "phase": "development",
+      "new_output_verified": false,
+      "status": "blocked_or_failed",
+      "evidence_files_verified": 17,
+      "observations": 3,
+      "scenario_saved": true,
+      "video": {
+        "present": true,
+        "decoded_frames": 313,
+        "container_frames": 313,
+        "fps": 27.809834829127965,
+        "duration_seconds": 11.255011111111111,
+        "decode_ok": true
+      },
+      "error": "Selector requires exactly one target; observed 0",
+      "recording_error": null
+    },
+    {
+      "case": "duckduckgo-05",
+      "package": "com.duckduckgo.mobile.android",
+      "phase": "selected_adapter_verification",
+      "new_output_verified": true,
+      "status": "fresh_output_observed",
+      "evidence_files_verified": 29,
+      "observations": 6,
+      "scenario_saved": true,
+      "video": {
+        "present": true,
+        "decoded_frames": 399,
+        "container_frames": 399,
+        "fps": 20.861945162887,
+        "duration_seconds": 19.125733333333333,
+        "decode_ok": true
+      },
+      "error": null,
+      "recording_error": null
+    },
+    {
+      "case": "pocketpal-01",
+      "package": "com.pocketpalai",
+      "phase": "development",
+      "new_output_verified": false,
+      "status": "blocked_or_failed",
+      "evidence_files_verified": 12,
+      "observations": 2,
+      "scenario_saved": false,
+      "video": {
+        "present": true,
+        "decoded_frames": 9,
+        "container_frames": 9,
+        "fps": 1.3702430574351756,
+        "duration_seconds": 6.568177777777778,
+        "decode_ok": true
+      },
+      "error": "Input must be an empty non-password EditText",
+      "recording_error": null,
+      "configuration_limit": "Older development runner did not snapshot its config. These are development records, not frozen-protocol benchmark trials."
+    },
+    {
+      "case": "pocketpal-02",
+      "package": "com.pocketpalai",
+      "phase": "development",
+      "new_output_verified": false,
+      "status": "blocked_or_failed",
+      "evidence_files_verified": 12,
+      "observations": 2,
+      "scenario_saved": false,
+      "video": {
+        "present": true,
+        "decoded_frames": 10,
+        "container_frames": 10,
+        "fps": 1.4080276348890475,
+        "duration_seconds": 7.102133333333333,
+        "decode_ok": true
+      },
+      "error": "Input must be an empty non-password EditText",
+      "recording_error": null,
+      "configuration_limit": "Older development runner did not snapshot its config. These are development records, not frozen-protocol benchmark trials."
+    },
+    {
+      "case": "pocketpal-03",
+      "package": "com.pocketpalai",
+      "phase": "development",
+      "new_output_verified": false,
+      "status": "blocked_or_failed",
+      "evidence_files_verified": 20,
+      "observations": 4,
+      "scenario_saved": false,
+      "video": {
+        "present": true,
+        "decoded_frames": 79,
+        "container_frames": 79,
+        "fps": 5.50948817552253,
+        "duration_seconds": 14.338899999999999,
+        "decode_ok": true
+      },
+      "error": "Input must be an empty non-password EditText",
+      "recording_error": null,
+      "configuration_limit": "Older development runner did not snapshot its config. These are development records, not frozen-protocol benchmark trials."
+    },
+    {
+      "case": "pocketpal-04",
+      "package": "com.pocketpalai",
+      "phase": "development",
+      "new_output_verified": false,
+      "status": "output_not_established",
+      "evidence_files_verified": 120,
+      "observations": 29,
+      "scenario_saved": false,
+      "video": {
+        "present": true,
+        "decoded_frames": 457,
+        "container_frames": 457,
+        "fps": 4.053764767708339,
+        "duration_seconds": 112.73471111111111,
+        "decode_ok": true
+      },
+      "error": null,
+      "recording_error": null,
+      "interpretation": "Visible answer was 17 + 28 = 45, but nonce was missing. Strict automatic output verification correctly did not pass.",
+      "configuration_limit": "Older development runner did not snapshot its config. These are development records, not frozen-protocol benchmark trials."
+    },
+    {
+      "case": "pocketpal-05",
+      "package": "com.pocketpalai",
+      "phase": "selected_adapter_verification",
+      "new_output_verified": true,
+      "status": "fresh_output_observed",
+      "evidence_files_verified": 53,
+      "observations": 12,
+      "scenario_saved": true,
+      "video": {
+        "present": true,
+        "decoded_frames": 430,
+        "container_frames": 430,
+        "fps": 16.002103842489678,
+        "duration_seconds": 26.87146666666667,
+        "decode_ok": true
+      },
+      "error": null,
+      "recording_error": null
+    }
+  ],
+  "all_development_attempts_included": true,
+  "input_scope": "Synthetic prompts only. No account login or paid API used.",
+  "model_scope": "PocketPal and ChatterUI use the same Qwen 0.5B GGUF. Duck.ai backend identity is recorded only as UI text, not independently authenticated.",
+  "limitations": [
+    "Apps and adapters were selected/tuned during development, not a random or held-out sample.",
+    "Early development recordings can be shorter than the complete run; selected final recordings were checked separately.",
+    "Exact selected GUI output and fresh nonce establish an observed UI response, not model identity or general semantic correctness."
+  ]
+}

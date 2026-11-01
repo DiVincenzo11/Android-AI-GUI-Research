@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-01",
+  "capture_epoch_format": "UTC epoch seconds",
+  "host": "Windows-11-10.0.26100-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "emulator_avd": "GUI_Release\r\r\nOK",
+  "api": "35",
+  "android_release": "15",
+  "abi": "x86_64,arm64-v8a",
+  "screen": "Physical size: 1080x2400",
+  "density": "Physical density: 240",
+  "device_timezone": "GMT",
+  "recovery_flags": [
+    "-gpu swiftshader_indirect",
+    "-feature -Vulkan"
+  ],
+  "packages": {
+    "com.pocketpalai": [
+      "versionCode=151 minSdk=24 targetSdk=36",
+      "versionName=1.20.0"
+    ],
+    "com.Vali98.ChatterUI": [
+      "versionCode=1 minSdk=24 targetSdk=36",
+      "versionName=0.10.1"
+    ],
+    "com.duckduckgo.mobile.android": [
+      "versionCode=53000000 minSdk=28 targetSdk=36",
+      "versionName=5.300.0"
+    ]
+  },
+  "dependencies": {
+    "android-ai-gui-research": "0.2.0",
+    "Pillow": "12.3.0",
+    "rapidocr-onnxruntime": "1.4.4",
+    "onnxruntime": "1.31.1",
+    "uiautomator2": "3.5.2",
+    "adbutils": "2.12.0"
+  }
+}

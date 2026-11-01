@@ -1,0 +1,93 @@
+[
+  {
+    "text": "Compute 17 plus 28.Reply with the numer...",
+    "bounds": [
+      112,
+      143,
+      546,
+      174
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9836455583572388,
+    "package": ""
+  },
+  {
+    "text": ":",
+    "bounds": [
+      960,
+      147,
+      1053,
+      191
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.8690060377120972,
+    "package": ""
+  },
+  {
+    "text": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "bounds": [
+      109,
+      171,
+      442,
+      200
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9974384470419451,
+    "package": ""
+  },
+  {
+    "text": "Compute 17 plus 28.Reply with the numeric answer and code 26af6e91a2.Keep it",
+    "bounds": [
+      90,
+      2000,
+      970,
+      2032
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9740069681092313,
+    "package": ""
+  },
+  {
+    "text": "short.",
+    "bounds": [
+      90,
+      2031,
+      156,
+      2057
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.998806873957316,
+    "package": ""
+  },
+  {
+    "text": "17 + 28 = 45",
+    "bounds": [
+      27,
+      2115,
+      162,
+      2144
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9602536906798681,
+    "package": ""
+  },
+  {
+    "text": "Typeyourmessagehere",
+    "bounds": [
+      43,
+      2223,
+      324,
+      2247
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9977849753279435,
+    "package": ""
+  }
+]

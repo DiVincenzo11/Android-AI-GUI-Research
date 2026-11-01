@@ -1,0 +1,342 @@
+[
+  {
+    "index": 0,
+    "text": "",
+    "description": "",
+    "resource_id": "",
+    "class": "android.widget.FrameLayout",
+    "package": "com.duckduckgo.mobile.android",
+    "bounds": [
+      764,
+      316,
+      1064,
+      528
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": []
+  },
+  {
+    "index": 1,
+    "text": "",
+    "description": "",
+    "resource_id": "",
+    "class": "android.widget.LinearLayout",
+    "package": "com.duckduckgo.mobile.android",
+    "bounds": [
+      764,
+      316,
+      1064,
+      528
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0
+    ]
+  },
+  {
+    "index": 2,
+    "text": "",
+    "description": "",
+    "resource_id": "",
+    "class": "android.widget.LinearLayout",
+    "package": "com.duckduckgo.mobile.android",
+    "bounds": [
+      764,
+      316,
+      1064,
+      382
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 3,
+    "text": "",
+    "description": "",
+    "resource_id": "",
+    "class": "android.widget.LinearLayout",
+    "package": "com.duckduckgo.mobile.android",
+    "bounds": [
+      764,
+      316,
+      1064,
+      382
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "index": 4,
+    "text": "Duck.ai",
+    "description": "",
+    "resource_id": "com.duckduckgo.mobile.android:id/sectionHeaderText",
+    "class": "android.widget.TextView",
+    "package": "com.duckduckgo.mobile.android",
+    "bounds": [
+      788,
+      334,
+      1040,
+      363
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "index": 5,
+    "text": "",
+    "description": "",
+    "resource_id": "com.duckduckgo.mobile.android:id/contextualChatMenuNewChat",
+    "class": "android.widget.LinearLayout",
+    "package": "com.duckduckgo.mobile.android",
+    "bounds": [
+      764,
+      382,
+      1064,
+      454
+    ],
+    "enabled": true,
+    "clickable": true,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 6,
+    "text": "",
+    "description": "New Chat",
+    "resource_id": "",
+    "class": "android.view.ViewGroup",
+    "package": "com.duckduckgo.mobile.android",
+    "bounds": [
+      764,
+      382,
+      1064,
+      454
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1,
+      5
+    ]
+  },
+  {
+    "index": 7,
+    "text": "",
+    "description": "",
+    "resource_id": "com.duckduckgo.mobile.android:id/leadingIcon",
+    "class": "android.widget.ImageView",
+    "package": "com.duckduckgo.mobile.android",
+    "bounds": [
+      788,
+      406,
+      812,
+      430
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1,
+      5,
+      6
+    ]
+  },
+  {
+    "index": 8,
+    "text": "New Chat",
+    "description": "",
+    "resource_id": "com.duckduckgo.mobile.android:id/label",
+    "class": "android.widget.TextView",
+    "package": "com.duckduckgo.mobile.android",
+    "bounds": [
+      812,
+      382,
+      1064,
+      454
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1,
+      5,
+      6
+    ]
+  },
+  {
+    "index": 9,
+    "text": "",
+    "description": "",
+    "resource_id": "com.duckduckgo.mobile.android:id/contextualChatMenuAllChatsDivider",
+    "class": "android.widget.FrameLayout",
+    "package": "com.duckduckgo.mobile.android",
+    "bounds": [
+      764,
+      454,
+      1064,
+      456
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 10,
+    "text": "",
+    "description": "",
+    "resource_id": "com.duckduckgo.mobile.android:id/horizontalDivider",
+    "class": "android.view.View",
+    "package": "com.duckduckgo.mobile.android",
+    "bounds": [
+      764,
+      454,
+      1064,
+      456
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1,
+      9
+    ]
+  },
+  {
+    "index": 11,
+    "text": "",
+    "description": "",
+    "resource_id": "com.duckduckgo.mobile.android:id/contextualChatMenuAllChats",
+    "class": "android.widget.LinearLayout",
+    "package": "com.duckduckgo.mobile.android",
+    "bounds": [
+      764,
+      456,
+      1064,
+      528
+    ],
+    "enabled": true,
+    "clickable": true,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1
+    ]
+  },
+  {
+    "index": 12,
+    "text": "",
+    "description": "Chats",
+    "resource_id": "",
+    "class": "android.view.ViewGroup",
+    "package": "com.duckduckgo.mobile.android",
+    "bounds": [
+      764,
+      456,
+      1064,
+      528
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1,
+      11
+    ]
+  },
+  {
+    "index": 13,
+    "text": "",
+    "description": "",
+    "resource_id": "com.duckduckgo.mobile.android:id/leadingIcon",
+    "class": "android.widget.ImageView",
+    "package": "com.duckduckgo.mobile.android",
+    "bounds": [
+      788,
+      480,
+      812,
+      504
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1,
+      11,
+      12
+    ]
+  },
+  {
+    "index": 14,
+    "text": "Chats",
+    "description": "",
+    "resource_id": "com.duckduckgo.mobile.android:id/label",
+    "class": "android.widget.TextView",
+    "package": "com.duckduckgo.mobile.android",
+    "bounds": [
+      812,
+      456,
+      1064,
+      528
+    ],
+    "enabled": true,
+    "clickable": false,
+    "password": false,
+    "source": "native",
+    "ancestors": [
+      0,
+      1,
+      11,
+      12
+    ]
+  }
+]

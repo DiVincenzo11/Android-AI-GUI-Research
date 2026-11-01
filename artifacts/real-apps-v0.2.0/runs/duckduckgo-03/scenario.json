@@ -1,0 +1,20 @@
+{
+  "package": "com.duckduckgo.mobile.android",
+  "fixture": false,
+  "entry": "already_open",
+  "input": {
+    "resource_id": "com.duckduckgo.mobile.android:id/inputField"
+  },
+  "input_placeholder": "Ask anything privately…",
+  "submit": {
+    "resource_id": "com.duckduckgo.mobile.android:id/nativeInputAskButton"
+  },
+  "response": {
+    "class": "android.widget.TextView"
+  },
+  "prompt": "Add 12 and 13. Reply with 25 and code {nonce}.",
+  "expected_output": "25",
+  "wait_seconds": 90,
+  "stable_polls": 2,
+  "launch_wait": 2
+}

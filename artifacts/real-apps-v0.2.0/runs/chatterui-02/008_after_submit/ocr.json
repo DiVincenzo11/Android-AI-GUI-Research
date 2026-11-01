@@ -1,0 +1,327 @@
+[
+  {
+    "text": "5:45",
+    "bounds": [
+      21,
+      45,
+      69,
+      73
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9837965667247772,
+    "package": ""
+  },
+  {
+    "text": "3G ",
+    "bounds": [
+      959,
+      45,
+      1043,
+      76
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.869080642859141,
+    "package": ""
+  },
+  {
+    "text": "Startofchat",
+    "bounds": [
+      488,
+      1461,
+      593,
+      1485
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.990286035971208,
+    "package": ""
+  },
+  {
+    "text": "User",
+    "bounds": [
+      98,
+      1537,
+      155,
+      1564
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9986803084611893,
+    "package": ""
+  },
+  {
+    "text": "5:43:28 AM",
+    "bounds": [
+      97,
+      1564,
+      196,
+      1591
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9796132266521453,
+    "package": ""
+  },
+  {
+    "text": "#0",
+    "bounds": [
+      45,
+      1619,
+      75,
+      1645
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.8867983818054199,
+    "package": ""
+  },
+  {
+    "text": "Add12and13.Replywith25andcodeb94ef37f2d.",
+    "bounds": [
+      116,
+      1625,
+      596,
+      1650
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9829498581588269,
+    "package": ""
+  },
+  {
+    "text": "Al Bot",
+    "bounds": [
+      97,
+      1698,
+      174,
+      1727
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9239725271860758,
+    "package": ""
+  },
+  {
+    "text": "5:43:28AM",
+    "bounds": [
+      100,
+      1728,
+      196,
+      1752
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9790560205777487,
+    "package": ""
+  },
+  {
+    "text": "#1",
+    "bounds": [
+      44,
+      1780,
+      73,
+      1807
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9971530437469482,
+    "package": ""
+  },
+  {
+    "text": "25andcodeb94ef37f2d.",
+    "bounds": [
+      114,
+      1787,
+      350,
+      1812
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9962255954742432,
+    "package": ""
+  },
+  {
+    "text": "Os",
+    "bounds": [
+      45,
+      1822,
+      74,
+      1848
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.7196507155895233,
+    "package": ""
+  },
+  {
+    "text": "Prompt:4.65 t/s |13.55s Text Gen:6.41 t/s |2.03s",
+    "bounds": [
+      114,
+      1825,
+      524,
+      1845
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9459431705375513,
+    "package": ""
+  },
+  {
+    "text": "User",
+    "bounds": [
+      97,
+      1878,
+      155,
+      1906
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.99753437936306,
+    "package": ""
+  },
+  {
+    "text": "5:45:28AM",
+    "bounds": [
+      98,
+      1910,
+      196,
+      1934
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9781093464957343,
+    "package": ""
+  },
+  {
+    "text": "#2",
+    "bounds": [
+      45,
+      1963,
+      75,
+      1987
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9949080944061279,
+    "package": ""
+  },
+  {
+    "text": "Add 12 and13.Reply with 25 and code c2fcf55847.",
+    "bounds": [
+      114,
+      1966,
+      599,
+      1994
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9651634300008733,
+    "package": ""
+  },
+  {
+    "text": "Al Bot",
+    "bounds": [
+      98,
+      2034,
+      173,
+      2063
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9205771088600159,
+    "package": ""
+  },
+  {
+    "text": "5:45:28 AM",
+    "bounds": [
+      101,
+      2066,
+      196,
+      2090
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9797191560268402,
+    "package": ""
+  },
+  {
+    "text": "#3",
+    "bounds": [
+      44,
+      2118,
+      75,
+      2143
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9872004985809326,
+    "package": ""
+  },
+  {
+    "text": "25and codec2fcf55847.",
+    "bounds": [
+      114,
+      2122,
+      350,
+      2150
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9743087007885888,
+    "package": ""
+  },
+  {
+    "text": "0s",
+    "bounds": [
+      44,
+      2160,
+      75,
+      2184
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.7972957789897919,
+    "package": ""
+  },
+  {
+    "text": "Prompt: 5.07 t/s |7.10s Text Gen: 5.16 t/s | 2.52s",
+    "bounds": [
+      115,
+      2161,
+      517,
+      2185
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9636857879161834,
+    "package": ""
+  },
+  {
+    "text": "1/1",
+    "bounds": [
+      556,
+      2214,
+      606,
+      2242
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9964597026507059,
+    "package": ""
+  },
+  {
+    "text": "Message.",
+    "bounds": [
+      92,
+      2285,
+      190,
+      2320
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9985898584127426,
+    "package": ""
+  }
+]

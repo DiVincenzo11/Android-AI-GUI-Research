@@ -1,0 +1,25 @@
+{
+  "package": "com.pocketpalai",
+  "mode": "live_adb",
+  "fixture": false,
+  "nonce": "ea30c26305",
+  "status": "fresh_output_observed",
+  "input_verified": true,
+  "new_output_verified": true,
+  "ai_model_quality": "not_assessed",
+  "legal_compliance": "not_assessed",
+  "stable_polls_required": 2,
+  "entry_mode": "explicit_selector",
+  "output": {
+    "text": "25 and code ea30c26305.",
+    "bounds": [
+      30,
+      2070,
+      1023,
+      2103
+    ],
+    "status": "fresh_selected_output_observed",
+    "semantic_correctness": "not_assessed",
+    "review_required": true
+  }
+}

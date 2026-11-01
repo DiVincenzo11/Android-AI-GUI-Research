@@ -1,0 +1,7 @@
+{
+  "package": "com.duckduckgo.mobile.android",
+  "entry": {
+    "resource_id": "com.duckduckgo.mobile.android:id/contextualChatMenuNewChat"
+  },
+  "wait_seconds": 10.0
+}

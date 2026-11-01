@@ -1,0 +1,67 @@
+[
+  {
+    "text": "Add 12 and 13.Reply with 25 and code 28...",
+    "bounds": [
+      112,
+      145,
+      547,
+      172
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9263252559162322,
+    "package": ""
+  },
+  {
+    "text": ":",
+    "bounds": [
+      960,
+      147,
+      1053,
+      191
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.8068882822990417,
+    "package": ""
+  },
+  {
+    "text": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "bounds": [
+      109,
+      171,
+      443,
+      200
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9969747463862101,
+    "package": ""
+  },
+  {
+    "text": "Add 12 and 13.Reply with 25 and code 28897a7915.",
+    "bounds": [
+      467,
+      2050,
+      1026,
+      2083
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9813108506302038,
+    "package": ""
+  },
+  {
+    "text": "Typeyourmessagehere",
+    "bounds": [
+      43,
+      2223,
+      324,
+      2247
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9976969235821774,
+    "package": ""
+  }
+]

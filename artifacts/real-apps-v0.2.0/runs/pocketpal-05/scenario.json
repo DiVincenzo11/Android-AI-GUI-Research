@@ -1,0 +1,41 @@
+{
+  "package": "com.pocketpalai",
+  "fixture": false,
+  "entry": {
+    "description": "Select Pal"
+  },
+  "input": {
+    "resource_id": "chat-input"
+  },
+  "input_placeholder": "Type your message here",
+  "submit": {
+    "resource_id": "send-button"
+  },
+  "response": {
+    "class": "android.widget.TextView",
+    "ancestor": {
+      "resource_id": "ai-message"
+    }
+  },
+  "prompt": "Add 12 and 13. Reply with 25 and code {nonce}.",
+  "expected_output": "25",
+  "stable_polls": 2,
+  "wait_seconds": 90,
+  "launch_wait": 3,
+  "entry_steps": [
+    {
+      "selector": {
+        "description": "Models",
+        "class": "android.view.ViewGroup"
+      },
+      "wait_seconds": 1
+    },
+    {
+      "selector": {
+        "description": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+        "class": "android.view.ViewGroup"
+      },
+      "wait_seconds": 3
+    }
+  ]
+}

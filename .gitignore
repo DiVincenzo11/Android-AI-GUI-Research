@@ -10,5 +10,8 @@ runs/
 *.mp4
 !artifacts/live-fixture/demo.mp4
 !artifacts/live-fixture-ocr/demo.mp4
+!artifacts/real-apps-v0.2.0/**/demo.mp4
+!artifacts/real-apps-v0.2.0/runs/
+!artifacts/real-apps-v0.2.0/runs/**
 .env
 config.local.json

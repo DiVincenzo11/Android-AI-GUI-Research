@@ -2,7 +2,19 @@
 
 Android 应用 AI 入口候选发现、受控 GUI 交互与分阶段证据采集工具。Python 包可独立安装，不依赖研究工作区的固定盘符、模型 API 或历史脚本。
 
-**v0.1.0 是研究工具首版。入口发现采用可解释的 UI 文本与控件规则；不是完整的自主探索 Agent，也不宣称复现 ScenGen 的论文成绩。**
+**v0.2.0 已补齐三个真实应用的新回答案例。入口发现仍采用 UI 文本与控件规则；不是完整的自主探索 Agent，也不宣称复现 ScenGen 的论文成绩。**
+
+## v0.2.0 真实应用实验
+
+2026-11-01，在独立 Android 15 模拟器中实际执行 PocketPal、ChatterUI、DuckDuckGo/Duck.ai，三个最终适配器均观察到新回答、正确回传本轮随机 nonce，并连续两次捕获相同目标回答。**没有使用测试 APK 的 SIMULATED 回复代替真实应用结果。**
+
+- PocketPal 1.20.0：自动打开模型选择器、选择本地 Qwen GGUF、输入和提交；在 `ai-message` 容器内核验回答。
+- ChatterUI 0.10.1：从 AI Bot 列表进入，自动加载同一 Qwen GGUF；用 AI Bot / User 标签区分回答与用户消息。
+- DuckDuckGo 5.300.0 / Duck.ai：真实联网交互；用 Duck.ai said / You said 区分回答与用户消息。界面模型名称仅为 UI 观察，未独立认证后端身份。
+
+保留全部 16 次开发和验证记录，包括模型未就绪、UI 树读取失败、未回传随机码、发送按钮随首轮/续聊变化，以及一次模拟器中断。**这些应用和适配器在开发中经过选择与调试，三个最终案例通过不构成跨应用成功率或独立测试集准确率。** 提示词中的算式和预期答案用于 GUI 链路检查，不是模型能力评测；两个本地应用使用同一模型。
+
+查看 [完整实验与录屏](artifacts/real-apps-v0.2.0/README.md)、[准备与运行步骤](docs/REAL_APPS.md)、[v0.2.0 验证范围](docs/VALIDATION_v0.2.0.md)。所有案例有截图、UI 树、OCR、JSONL 和 SHA-256；发生模拟器退出的案例明确记录录屏缺失。
 
 ## 本版包含什么
 
@@ -73,7 +85,7 @@ aigui verify runs/fixture-01
 
 已执行的 [UI + OCR 流程报告](artifacts/live-fixture-ocr/report.html)、[操作与观察日志](artifacts/live-fixture-ocr/events.jsonl) 和 [真实 Android 录屏](artifacts/live-fixture-ocr/demo.mp4) 随仓库提供。报告需下载后在浏览器查看；录屏中的回复明确为 SIMULATED。
 
-真实应用需要编写独立 JSON 适配器，填写 `package`、精确 `input` / `submit` / `response` 选择器和任务。输入只支持文档中的 ASCII 子集；Unicode 输入需另接 IME。UIAutomator 可能把提示文字当成输入框文字，可用 `input_placeholder` 声明已知占位符；输入后仍必须完整匹配本轮提示词才允许提交。`entry: "discover"` 只在存在唯一显式 AI 候选时自动点击，否则停止复核；也可提供精确入口选择器。
+v0.2.0 提供 `examples/real-apps/` 中的固定版本适配器；其他真实应用仍需填写 `package`、精确 `input` / `submit` / `response` 选择器和任务。输入只支持文档中的 ASCII 子集；Unicode 输入需另接 IME。UIAutomator 可能把提示文字当成输入框文字，可用 `input_placeholder` 或明确的 `input_placeholders` 声明已知占位符；输入后仍必须完整匹配本轮提示词才允许提交。`entry: "discover"` 只在存在唯一显式 AI 候选时自动点击，否则停止复核；也可提供精确入口选择器。
 
 `prompt` 必须包含 `{nonce}`，要求被测应用在回答中回传它；`expected_output` 是当前任务预设的文本检查，例如算式结果。核验仅说明新目标文本已观察到，不证明回答语义正确、来自真实模型或通过全部功能验收。拒绝回传 nonce 的应用可能产生保守漏判，应保留原记录并人工复核。
 
@@ -87,6 +99,17 @@ aigui observe --serial emulator-5554 --package your.app.package --out runs/ocr-0
 默认使用固定版本 `rapidocr-onnxruntime==1.4.4`，其依赖包包含 OCR 模型，无需额外安装引擎；本次实际设备 UI/OCR 流程已验证。选用该稳定旧 API 以固定本次记录；上游后续开发已转向 `rapidocr`，本版未验证新 API。
 
 也可安装 `python -m pip install -e ".[tesseract]"`，另行安装 [Tesseract 引擎及语言包](https://github.com/tesseract-ocr/tesseract)，再传 `--ocr-engine tesseract --ocr-language eng --tesseract /path/to/tesseract`。本次未验证 Tesseract 外部引擎。OCR 缺失或失败会明确报错，不会伪装为已完成。OCR 文本不单独驱动自动点击或回答验收；目前用于证据观察。
+
+## 动态页面的 UI 树
+
+Duck.ai WebView 动画期间，系统 `uiautomator dump` 即使重试也可能无法返回 root。v0.2.0 增加可选驱动，显式选择后使用空闲等待为 0 的 UIAutomator2 采集；驱动可能安装 Android 端组件，建议用于专用测试设备。
+
+```shell
+python -m pip install -e ".[device,ocr,test]"
+aigui --adb /path/to/adb --ui-backend uiautomator2 run --serial emulator-5556 --config examples/real-apps/pocketpal.json --out runs/pocketpal --ocr --record
+```
+
+ADB 仍负责目标包检查、点击、输入、截图和录屏。默认 `shell` 后端不依赖 UIAutomator2，并记录最多三次 UI 树采集尝试。两种后端均只把实际返回的节点作为证据，不从 OCR 伪造原生节点。
 
 ## 与既有研究和 ScenGen 的关系
 

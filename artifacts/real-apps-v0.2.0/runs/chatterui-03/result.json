@@ -1,0 +1,25 @@
+{
+  "package": "com.Vali98.ChatterUI",
+  "mode": "live_adb",
+  "fixture": false,
+  "nonce": "2b40ea6a34",
+  "status": "fresh_output_observed",
+  "input_verified": true,
+  "new_output_verified": true,
+  "ai_model_quality": "not_assessed",
+  "legal_compliance": "not_assessed",
+  "stable_polls_required": 2,
+  "entry_mode": "explicit_selector",
+  "output": {
+    "text": "⁦25 and code 2b40ea6a34.⁩",
+    "bounds": [
+      116,
+      2121,
+      1049,
+      2150
+    ],
+    "status": "fresh_selected_output_observed",
+    "semantic_correctness": "not_assessed",
+    "review_required": true
+  }
+}

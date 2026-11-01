@@ -1,0 +1,93 @@
+[
+  {
+    "text": "Chat",
+    "bounds": [
+      109,
+      153,
+      167,
+      186
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9991362690925598,
+    "package": ""
+  },
+  {
+    "text": ":",
+    "bounds": [
+      960,
+      147,
+      1053,
+      191
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.7867204546928406,
+    "package": ""
+  },
+  {
+    "text": "ActivateModelToGetStarted",
+    "bounds": [
+      367,
+      1011,
+      714,
+      1039
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9981208252906799,
+    "package": ""
+  },
+  {
+    "text": "Select themodel and download it.After downloading,tapLoad next to themodel and start",
+    "bounds": [
+      78,
+      1057,
+      1005,
+      1085
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9637595422211147,
+    "package": ""
+  },
+  {
+    "text": "chatting.",
+    "bounds": [
+      491,
+      1083,
+      588,
+      1116
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9487328396903144,
+    "package": ""
+  },
+  {
+    "text": "SelectModel",
+    "bounds": [
+      473,
+      1155,
+      609,
+      1183
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9963195053013888,
+    "package": ""
+  },
+  {
+    "text": "Model not loaded.Please initialize the model.",
+    "bounds": [
+      40,
+      2219,
+      548,
+      2247
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9753991643587748,
+    "package": ""
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "text": "Chat",
+    "bounds": [
+      110,
+      143,
+      168,
+      174
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9827684164047241,
+    "package": ""
+  },
+  {
+    "text": ":",
+    "bounds": [
+      960,
+      147,
+      1053,
+      192
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9022006988525391,
+    "package": ""
+  },
+  {
+    "text": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "bounds": [
+      107,
+      169,
+      442,
+      202
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.998530955025644,
+    "package": ""
+  },
+  {
+    "text": "Typeyour messagehere",
+    "bounds": [
+      42,
+      2222,
+      325,
+      2250
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.97669677734375,
+    "package": ""
+  }
+]

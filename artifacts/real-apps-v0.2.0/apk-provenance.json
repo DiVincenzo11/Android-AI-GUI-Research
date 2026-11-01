@@ -1,0 +1,26 @@
+[
+  {
+    "repo": "a-ghorbani/pocketpal-ai",
+    "release_tag": "v1.20.0",
+    "asset": "app-prod-release.apk",
+    "sha256": "4c4420f3561dc35aa44bf6d765bab91cb5ba00dd821b4961fa827833c7ad4ee0",
+    "bytes": 241605880,
+    "source_url": "https://github.com/a-ghorbani/pocketpal-ai/releases/download/v1.20.0/app-prod-release.apk"
+  },
+  {
+    "repo": "Vali-98/ChatterUI",
+    "release_tag": "v0.10.0",
+    "asset": "ChatterUI_v0.10.1.apk",
+    "sha256": "ec051d90bc9f82587a726b525976494bacef50bc8a7dd0e3789b859373121753",
+    "bytes": 66035707,
+    "source_url": "https://github.com/Vali-98/ChatterUI/releases/download/v0.10.0/ChatterUI_v0.10.1.apk"
+  },
+  {
+    "repo": "duckduckgo/Android",
+    "tag": "5.300.0",
+    "asset": "duckduckgo-5.300.0-play-release.apk",
+    "bytes": 72002838,
+    "sha256": "3d9fa2edef0cbdf43e3438e1206baadaf1f2c67d8a6c99a6bf0371082a0194ab",
+    "source": "https://github.com/duckduckgo/Android/releases/download/5.300.0/duckduckgo-5.300.0-play-release.apk"
+  }
+]

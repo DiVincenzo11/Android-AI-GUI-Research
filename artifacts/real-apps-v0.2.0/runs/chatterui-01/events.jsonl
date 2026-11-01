@@ -1,0 +1,9 @@
+{"time_epoch": 1793511799.7807248, "kind": "observation", "stage": "entry", "capture_started": 1793511795.639334, "screenshot_epoch": 1793511795.8120933, "ui_epoch": 1793511797.8623335, "atomic_capture": false, "screenshot": "000_entry/screen.png", "ui": "000_entry/ui.xml", "size": [1080, 2400], "ocr_status": "completed", "ocr_engine": "rapidocr", "markers": []}
+{"time_epoch": 1793511799.781728, "kind": "entry_candidates", "candidates": []}
+{"time_epoch": 1793511799.781728, "kind": "already_open", "automatic_entry_discovery_assessed": false}
+{"time_epoch": 1793511803.039029, "kind": "observation", "stage": "entered", "capture_started": 1793511800.2927487, "screenshot_epoch": 1793511800.4305692, "ui_epoch": 1793511802.4745123, "atomic_capture": false, "screenshot": "003_entered/screen.png", "ui": "003_entered/ui.xml", "size": [1080, 2400], "ocr_status": "completed", "ocr_engine": "rapidocr", "markers": []}
+{"time_epoch": 1793511803.1426911, "kind": "input_started", "prompt": "Add 12 and 13. Reply with 25 and code b94ef37f2d."}
+{"time_epoch": 1793511809.3852518, "kind": "observation", "stage": "before_submit", "capture_started": 1793511805.1806476, "screenshot_epoch": 1793511805.357597, "ui_epoch": 1793511807.4601305, "atomic_capture": false, "screenshot": "005_before_submit/screen.png", "ui": "005_before_submit/ui.xml", "size": [1080, 2400], "ocr_status": "completed", "ocr_engine": "rapidocr", "markers": []}
+{"time_epoch": 1793511809.4674113, "kind": "submit", "bounds": [1005, 1841, 1059, 1897]}
+{"time_epoch": 1793511821.7754998, "kind": "failure", "error": "Command '['G:\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe', '-s', 'emulator-5556', 'shell', 'cat /sdcard/aigui_eb9cbaaeeefe4735af95a344d34a78d1.xml']' returned non-zero exit status 1."}
+{"time_epoch": 1793511822.8918643, "kind": "recording_saved", "path": "demo.mp4"}

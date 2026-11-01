@@ -1,0 +1,67 @@
+[
+  {
+    "text": "βearch",
+    "bounds": [
+      91,
+      147,
+      174,
+      186
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9062570780515671,
+    "package": ""
+  },
+  {
+    "text": "②三",
+    "bounds": [
+      965,
+      147,
+      1060,
+      181
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.7382270097732544,
+    "package": ""
+  },
+  {
+    "text": "Duck.ai",
+    "bounds": [
+      782,
+      336,
+      864,
+      365
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9994074191365924,
+    "package": ""
+  },
+  {
+    "text": "New Chat",
+    "bounds": [
+      830,
+      405,
+      945,
+      434
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9817921295762062,
+    "package": ""
+  },
+  {
+    "text": "Chats",
+    "bounds": [
+      831,
+      476,
+      904,
+      509
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9949005603790283,
+    "package": ""
+  }
+]

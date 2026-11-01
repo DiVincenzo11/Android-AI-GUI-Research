@@ -1,0 +1,54 @@
+[
+  {
+    "text": "Chat",
+    "bounds": [
+      110,
+      143,
+      168,
+      174
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9879931807518005,
+    "package": ""
+  },
+  {
+    "text": ":",
+    "bounds": [
+      960,
+      147,
+      1053,
+      192
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9035018682479858,
+    "package": ""
+  },
+  {
+    "text": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "bounds": [
+      107,
+      169,
+      442,
+      202
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9912613684480841,
+    "package": ""
+  },
+  {
+    "text": "Model not loaded. Please initialize the model.",
+    "bounds": [
+      39,
+      2217,
+      548,
+      2247
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9872596186140309,
+    "package": ""
+  }
+]

@@ -1,0 +1,457 @@
+[
+  {
+    "text": "Chat",
+    "bounds": [
+      112,
+      145,
+      166,
+      171
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9993059933185577,
+    "package": ""
+  },
+  {
+    "text": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "bounds": [
+      110,
+      171,
+      442,
+      199
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9887095599463491,
+    "package": ""
+  },
+  {
+    "text": "Typeyourmessagehere",
+    "bounds": [
+      42,
+      1789,
+      325,
+      1816
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9982930421829224,
+    "package": ""
+  },
+  {
+    "text": "8",
+    "bounds": [
+      68,
+      1931,
+      104,
+      1971
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.7302650809288025,
+    "package": ""
+  },
+  {
+    "text": "GIF",
+    "bounds": [
+      290,
+      1937,
+      335,
+      1966
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9890804688135783,
+    "package": ""
+  },
+  {
+    "text": "自",
+    "bounds": [
+      408,
+      1934,
+      447,
+      1971
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9995763897895813,
+    "package": ""
+  },
+  {
+    "text": "回",
+    "bounds": [
+      753,
+      1941,
+      784,
+      1968
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.6870161294937134,
+    "package": ""
+  },
+  {
+    "text": "W?",
+    "bounds": [
+      139,
+      1992,
+      214,
+      2056
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9591457545757294,
+    "package": ""
+  },
+  {
+    "text": "E",
+    "bounds": [
+      238,
+      2008,
+      267,
+      2050
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9980339407920837,
+    "package": ""
+  },
+  {
+    "text": "R",
+    "bounds": [
+      317,
+      2008,
+      350,
+      2051
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9951984286308289,
+    "package": ""
+  },
+  {
+    "text": "5",
+    "bounds": [
+      430,
+      2005,
+      444,
+      2023
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9992376565933228,
+    "package": ""
+  },
+  {
+    "text": "U",
+    "bounds": [
+      731,
+      2009,
+      766,
+      2049
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9394249320030212,
+    "package": ""
+  },
+  {
+    "text": "8",
+    "bounds": [
+      843,
+      2004,
+      858,
+      2026
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9741929769515991,
+    "package": ""
+  },
+  {
+    "text": "O",
+    "bounds": [
+      896,
+      2011,
+      928,
+      2046
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.5489509105682373,
+    "package": ""
+  },
+  {
+    "text": "9",
+    "bounds": [
+      926,
+      2004,
+      941,
+      2026
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9853599667549133,
+    "package": ""
+  },
+  {
+    "text": "Q",
+    "bounds": [
+      74,
+      2016,
+      100,
+      2045
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9990971088409424,
+    "package": ""
+  },
+  {
+    "text": "P",
+    "bounds": [
+      983,
+      2011,
+      1006,
+      2044
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9991294741630554,
+    "package": ""
+  },
+  {
+    "text": "0",
+    "bounds": [
+      1008,
+      2005,
+      1024,
+      2025
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.6407015323638916,
+    "package": ""
+  },
+  {
+    "text": "A",
+    "bounds": [
+      96,
+      2095,
+      125,
+      2132
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9988759160041809,
+    "package": ""
+  },
+  {
+    "text": "S",
+    "bounds": [
+      172,
+      2093,
+      200,
+      2133
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.975721538066864,
+    "package": ""
+  },
+  {
+    "text": "D",
+    "bounds": [
+      253,
+      2100,
+      272,
+      2127
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9987875819206238,
+    "package": ""
+  },
+  {
+    "text": "F",
+    "bounds": [
+      329,
+      2096,
+      353,
+      2129
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9994839429855347,
+    "package": ""
+  },
+  {
+    "text": "G",
+    "bounds": [
+      405,
+      2096,
+      433,
+      2131
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9982095956802368,
+    "package": ""
+  },
+  {
+    "text": "G",
+    "bounds": [
+      649,
+      2098,
+      676,
+      2129
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9969634413719177,
+    "package": ""
+  },
+  {
+    "text": "H",
+    "bounds": [
+      723,
+      2095,
+      752,
+      2131
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.998594343662262,
+    "package": ""
+  },
+  {
+    "text": "K",
+    "bounds": [
+      877,
+      2095,
+      907,
+      2132
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9944612979888916,
+    "package": ""
+  },
+  {
+    "text": "Z",
+    "bounds": [
+      172,
+      2177,
+      201,
+      2217
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.7485193610191345,
+    "package": ""
+  },
+  {
+    "text": "X",
+    "bounds": [
+      249,
+      2178,
+      279,
+      2217
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.7982998490333557,
+    "package": ""
+  },
+  {
+    "text": "C",
+    "bounds": [
+      326,
+      2179,
+      356,
+      2214
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9842643141746521,
+    "package": ""
+  },
+  {
+    "text": "B",
+    "bounds": [
+      723,
+      2178,
+      752,
+      2216
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9998109936714172,
+    "package": ""
+  },
+  {
+    "text": "N",
+    "bounds": [
+      800,
+      2179,
+      830,
+      2214
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9992243051528931,
+    "package": ""
+  },
+  {
+    "text": "M",
+    "bounds": [
+      873,
+      2178,
+      912,
+      2217
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9959235191345215,
+    "package": ""
+  },
+  {
+    "text": "β",
+    "bounds": [
+      970,
+      2187,
+      999,
+      2212
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.6708621382713318,
+    "package": ""
+  },
+  {
+    "text": "？123",
+    "bounds": [
+      65,
+      2265,
+      128,
+      2297
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9152504652738571,
+    "package": ""
+  },
+  {
+    "text": "?",
+    "bounds": [
+      245,
+      2265,
+      279,
+      2298
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.8748881816864014,
+    "package": ""
+  }
+]

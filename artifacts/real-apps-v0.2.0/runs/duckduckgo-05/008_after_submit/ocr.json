@@ -1,0 +1,171 @@
+[
+  {
+    "text": "Free Plan",
+    "bounds": [
+      492,
+      158,
+      589,
+      183
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9468051062689887,
+    "package": ""
+  },
+  {
+    "text": "十②三",
+    "bounds": [
+      908,
+      147,
+      1063,
+      183
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.8006735940774282,
+    "package": ""
+  },
+  {
+    "text": "That'sDuck.ai!",
+    "bounds": [
+      135,
+      295,
+      336,
+      326
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9847423689705985,
+    "package": ""
+  },
+  {
+    "text": "Private Al chatsyou can delete anytime with theFire Button.Giveit a try!",
+    "bounds": [
+      135,
+      358,
+      883,
+      385
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9476049178176456,
+    "package": ""
+  },
+  {
+    "text": "Try It",
+    "bounds": [
+      508,
+      437,
+      576,
+      469
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.8945338179667791,
+    "package": ""
+  },
+  {
+    "text": "Add 12 and 13.Replywith 25 and code35ca3fc5a6.",
+    "bounds": [
+      60,
+      716,
+      589,
+      748
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9726950629897739,
+    "package": ""
+  },
+  {
+    "text": "GPT-6 Luna",
+    "bounds": [
+      87,
+      845,
+      198,
+      877
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9832450568675994,
+    "package": ""
+  },
+  {
+    "text": "25",
+    "bounds": [
+      45,
+      895,
+      80,
+      924
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9999117255210876,
+    "package": ""
+  },
+  {
+    "text": "35ca3fc5a6",
+    "bounds": [
+      49,
+      931,
+      179,
+      959
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9989729166030884,
+    "package": ""
+  },
+  {
+    "text": "O)2nd opinion",
+    "bounds": [
+      62,
+      1000,
+      206,
+      1029
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9099954825181228,
+    "package": ""
+  },
+  {
+    "text": "勺",
+    "bounds": [
+      296,
+      1001,
+      339,
+      1028
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.5482222437858582,
+    "package": ""
+  },
+  {
+    "text": "个",
+    "bounds": [
+      365,
+      1006,
+      382,
+      1023
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9989978671073914,
+    "package": ""
+  },
+  {
+    "text": "Reply....",
+    "bounds": [
+      102,
+      2286,
+      183,
+      2320
+    ],
+    "source": "ocr",
+    "backend": "rapidocr_onnxruntime_1.4.4",
+    "confidence": 0.9275047249264188,
+    "package": ""
+  }
+]
